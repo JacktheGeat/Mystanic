@@ -7,7 +7,7 @@
           "equipment": {
             "mainhand": {
               "item": "minecraft:netherite_sword",
-              "nbt": "{id:\"sword_of_avarice\"}"
+              "nbt": "{Mystanic:{id:\"sword_of_avarice\"}}"
             }
           }
         }

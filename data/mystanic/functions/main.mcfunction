@@ -6,7 +6,7 @@ execute as @e[type=!#mystanic:non_sentient,nbt={HurtTime:8s}] at @s run particle
 execute as @e[tag=mystanic_custom] run function mystanic:combat/custom_entity/main
 
 
-function mystanic:combat/sword_of_avarice/main
+execute as @a run function mystanic:combat/sword_of_avarice/main
 
 
 scoreboard players set @a right_click 0
