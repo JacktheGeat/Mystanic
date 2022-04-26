@@ -1,0 +1,31 @@
+{
+    "criteria": {
+      "kill_elder_guardian": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "type": "minecraft:elder_guardian"
+                    }
+                  }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "kill_elder_guardian"
+      ]
+    ],
+    "rewards": {
+      "function": "mystanic:combat/coins/kill_elder_guardian"
+    }
+  }

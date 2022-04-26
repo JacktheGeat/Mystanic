@@ -1,0 +1,45 @@
+{
+    "criteria": {
+      "kill_cube": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "type": "minecraft:slime"
+                    }
+                  },
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "type": "minecraft:magma_cube"
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "type": "minecraft:shulker"
+                    }
+                  }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "kill_cube"
+      ]
+    ],
+    "rewards": {
+      "function": "mystanic:combat/coins/kill_cube"
+    }
+  }

@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:bee_nest_destroyed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "minecraft:flower_forest"
+              },
+              "player": {
+                "advancements": {
+                  "mystanic:adventure/bee_keeper/bee_warn": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "rng": {
+      "trigger": "minecraft:bee_nest_destroyed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.2
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "mystanic:advancement/adventure/bee_keeper/bee_keeper_summon"
+  }
+}

@@ -1,0 +1,45 @@
+{
+    "criteria": {
+      "kill_piglin": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "type": "minecraft:piglin"
+                    }
+                  },
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "type": "minecraft:piglin_brute"
+                    }
+                  },
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "type": "minecraft:zombified_piglin"
+                    }
+                  }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "kill_piglin"
+      ]
+    ],
+    "rewards": {
+      "function": "mystanic:combat/coins/kill_piglin"
+    }
+  }

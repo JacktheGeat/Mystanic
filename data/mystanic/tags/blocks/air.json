@@ -1,0 +1,19 @@
+{
+       "values": [
+           "minecraft:air",
+           "minecraft:grass",
+           "minecraft:tall_grass",
+           "#minecraft:flowers",
+           "#minecraft:carpets",
+           "#minecraft:buttons",
+           "minecraft:fire",
+           "#minecraft:bee_growables",
+           "#minecraft:corals",
+           "#minecraft:rails",
+           "#minecraft:signs",
+           "#minecraft:saplings",
+           "minecraft:tripwire",
+           "minecraft:redstone_wire",
+           "minecraft:tripwire_hook"
+       ]
+}

@@ -1,0 +1,31 @@
+{
+    "criteria": {
+      "kill_wither": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "type": "minecraft:wither"
+                    }
+                  }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "kill_wither"
+      ]
+    ],
+    "rewards": {
+      "function": "mystanic:combat/coins/kill_wither"
+    }
+  }

@@ -1,0 +1,26 @@
+{
+    "criteria": {
+      "kill_enderman": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:enderman"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "kill_enderman"
+      ]
+    ],
+    "rewards": {
+      "function": "mystanic:combat/coins/kill_enderman"
+    }
+  }
