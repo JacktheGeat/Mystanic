@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "deal_dmg": {
+            "trigger": "minecraft:entity_hurt_player"
+        }
+    },
+    "rewards": {
+        "function": "mystanic:advancement/take_dmg"
+    }
+}

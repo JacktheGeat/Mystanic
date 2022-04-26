@@ -1,0 +1,38 @@
+{
+    "criteria": {
+      "kill_hoglin": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "type": "minecraft:hoglin"
+                    }
+                  },
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "type": "minecraft:zoglin"
+                    }
+                  }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "kill_hoglin"
+      ]
+    ],
+    "rewards": {
+      "function": "mystanic:combat/coins/kill_hoglin"
+    }
+  }

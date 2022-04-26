@@ -1,0 +1,31 @@
+{
+    "criteria": {
+      "kill_ravager": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "type": "minecraft:ravager"
+                    }
+                  }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "kill_ravager"
+      ]
+    ],
+    "rewards": {
+      "function": "mystanic:combat/coins/kill_ravager"
+    }
+  }
