@@ -45,11 +45,11 @@
             "type": "minecraft:item",
             "weight": 10,
             "quality": 5,
-            "name": "minecraft:splash_potion",
+            "name": "minecraft:lingering_potion",
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{mystanic:{id:\"honey_potion\"},CustomPotionColor:16758845}"
+                "tag": "{HideFlags:3,mystanic:{id:\"honey_potion\"},CustomPotionColor:16758845,CustomPotionEffects:[{Id:26b,Amplifier:0b,Duration:0}]}"
               },
               {
                 "function": "set_name",
