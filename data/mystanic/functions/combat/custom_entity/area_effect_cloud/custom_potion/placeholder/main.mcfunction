@@ -1,0 +1,1 @@
+execute if entity @s[tag=honey_spill] as @s at @s unless entity @e[distance=..2,type=potion,nbt={Item:{tag:{mystanic:{id:"honey_potion"}}}}] run function mystanic:combat/custom_entity/area_effect_cloud/custom_potion/honey_spill

@@ -1,0 +1,1 @@
+execute if entity @s[nbt={Item:{tag:{mystanic:{id:"honey_potion"}}}}] run summon area_effect_cloud ~ ~ ~ {Duration:2,Tags:["mystanic_custom","placeholder","honey_spill","custom_potion"]}
