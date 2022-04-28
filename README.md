@@ -20,9 +20,9 @@ also it could have spyware and viruses or something idk. its not like i made it 
 that was a joke i made it it shouldnt break your computer or anything. probably.
 
 How to summon bee keeper: 
-<go to flower forest>
-    <break bee nests until warning appears>
-        <break bee nests with 20% chance of beekeeper spawning>
+    go to flower forest
+    break bee nests until warning appears
+    break bee nests with 20% chance of beekeeper spawning
 
 # Known Bugs:
   > Sword of Avarice buggs out at 214748 kills. if someone manages to get that many kills in a survival world, without commands, i will give you 100$. until then, thats just too big a number for me to care.
