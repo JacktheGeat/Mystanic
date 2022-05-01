@@ -33,4 +33,4 @@ How to summon bee keeper:
 added give commands: /function mystanic:give/(insert item here)
 
 # Known Bugs:
-  > Sword of Avarice buggs out at 214748 kills. if someone manages to get that many kills in a survival world, without commands, i will give you 100$. until then, thats just too big a number for me to care.
+  > Sword of Avarice buggs out at 214748 kills. if someone manages to get that many kills in a survival world, without commands or hacks, i will give you 100$. until then, thats just too big a number for me to care.
