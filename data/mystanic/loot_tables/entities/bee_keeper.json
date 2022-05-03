@@ -74,7 +74,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{mystanic:{type: spell, id: honey_wand, material: unique, subtype: wand, Num: 16, Handed: 0, Attributes:{}}}"
+                "tag": "{CustomModelData:52,mystanic:{type: spell, id: honey_wand, material: unique, subtype: wand, Num: 16, Handed: 0, Attributes:{poison:2}}}"
               }
             ]
           }
