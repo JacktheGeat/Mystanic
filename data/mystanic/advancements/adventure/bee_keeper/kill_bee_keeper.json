@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mystanic:adventure/bee_keeper/bee_warn",
+  "parent": "mystanic:adventure/bee_keeper/bee_warned",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:player_killed_entity",
