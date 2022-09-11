@@ -13,7 +13,7 @@
               },
               "player": {
                 "advancements": {
-                  "mystanic:adventure/bee_keeper/bee_warn": true
+                  "mystanic:adventure/bee_keeper/bee_warned": true
                 }
               }
             }

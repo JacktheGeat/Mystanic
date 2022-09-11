@@ -49,7 +49,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{HideFlags:3,mystanic:{id:\"honey_potion\"},CustomPotionColor:16758845,CustomPotionEffects:[{Id:26b,Amplifier:0b,Duration:0}]}"
+                "tag": "{HideFlags:3,mystanic:{id:\"honey_potion\"},CustomPotionColor:16758845,CustomPotionEffects:[{Id:26,Amplifier:0b,Duration:0}]}"
               },
               {
                 "function": "set_name",

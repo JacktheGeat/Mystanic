@@ -1,0 +1,43 @@
+{
+    "name": "ceiling_decor_pool",
+    "fallback": "minecraft:empty",
+    "elements": [
+
+        {
+            "weight": 50,
+            "element": {
+                "location": "mystanic:basic_dungeon/decor/lantern",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 50,
+            "element": {
+                "location": "mystanic:basic_dungeon/decor/empty",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 10,
+            "element": {
+                "location": "mystanic:basic_dungeon/decor/lantern2",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 10,
+            "element": {
+                "location": "mystanic:basic_dungeon/decor/bell",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        }
+    ]
+}
