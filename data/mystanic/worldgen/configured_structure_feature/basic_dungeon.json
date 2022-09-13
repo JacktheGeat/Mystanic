@@ -1,11 +1,11 @@
 {
-    "type": "minecraft:mineshaft",
+    "type": "minecraft:bastion_remnant",
     "biomes": "#minecraft:has_structure/mineshaft",
     "adapt_noise": true,
     "spawn_overrides": {},
     "config": {
-      "type": "normal",
-      "probability": 0
+      "start_pool": "mystanic:basic_dungeon_rooms",
+      "size": 4
     }
   }
   
