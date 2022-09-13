@@ -30,9 +30,18 @@
             }
         },
         {
-            "weight": 50,
+            "weight": 30,
             "element": {
                 "location": "mystanic:basic_dungeon/rooms/hallway",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 20,
+            "element": {
+                "location": "mystanic:basic_dungeon/rooms/hallway_cross",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"

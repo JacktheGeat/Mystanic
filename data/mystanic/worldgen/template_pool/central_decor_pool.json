@@ -1,10 +1,10 @@
 {
-    "name": "ceiling_decor_pool",
+    "name": "central_decor_pool",
     "fallback": "minecraft:empty",
     "elements": [
 
         {
-            "weight": 50,
+            "weight": 100,
             "element": {
                 "location": "mystanic:basic_dungeon/decor/lantern",
                 "processors": "minecraft:empty",
@@ -13,7 +13,7 @@
             }
         },
         {
-            "weight": 50,
+            "weight": 75,
             "element": {
                 "location": "mystanic:basic_dungeon/decor/empty",
                 "processors": "minecraft:empty",
@@ -22,7 +22,7 @@
             }
         },
         {
-            "weight": 10,
+            "weight": 5,
             "element": {
                 "location": "mystanic:basic_dungeon/decor/lantern2",
                 "processors": "minecraft:empty",
