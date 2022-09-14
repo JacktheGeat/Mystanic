@@ -1,1 +1,1 @@
-give @s lingering_potion{HideFlags:3,mystanic:{id:"evoker_potion"},CustomPotionColor:4206638,CustomPotionEffects:[{Id:26b,Amplifier:0b,Duration:0}],display:{Name:'{"text": "Evoker Potion","color": "#5C3F3F","italic": false}'}}
+give @s lingering_potion{HideFlags:3,mystanic:{id:"evoker_potion"},CustomPotionColor:4206638,CustomPotionEffects:[{Id:26,Amplifier:0b,Duration:0}],display:{Name:'{"text": "Evoker Potion","color": "#5C3F3F","italic": false}'}}
