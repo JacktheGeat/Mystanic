@@ -1,0 +1,1 @@
+execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{Mystanic:{}}}]}] run function mystanic:rightclick/offhand/weapon/iron/main
