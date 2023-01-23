@@ -21,6 +21,7 @@ scoreboard objectives add CE_dummy dummy
 scoreboard objectives add id dummy
 
 execute as @a unless score @s player_mana matches 0.. run scoreboard players set @s player_mana 10
+execute as @a unless score @s max_mana matches 0.. run scoreboard players set @s max_mana 100
 execute as @a unless score @s mana_recovery matches 0.. run scoreboard players set @s mana_recovery 0
 execute as @a unless score @s right_click matches 0.. run scoreboard players set @s right_click 0
 scoreboard players set #100 CE_dummy 100

@@ -1,19 +1,20 @@
 {
     "criteria": {
-        "deal_dmg": {
-            "trigger": "minecraft:tick",
-            "conditions": {
-                "player": {
-                     "equipment":{
-                          "mainhand": {
-                               "nbt": "{tag:{Mystanic:{Handed:1}}}"
-                          }
-                     }
-                }
+      "mainhand": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "mainhand": {
+                "nbt": "{Mystanic:{Handed:1}}"
+              }
             }
+          }
         }
+      }
     },
     "rewards": {
-        "function": "mystanic:advancement/handed_check"
+      "function": "mystanic:advancement/handed_check"
     }
-}
+  }
+  

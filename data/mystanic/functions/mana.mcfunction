@@ -2,8 +2,8 @@
 
 execute as @a if score @s player_mana < @s max_mana run scoreboard players add @s mana_recovery 1
 
-execute as @a if score @s mana_recovery matches 2400.. run scoreboard players add @s player_mana 1
-execute as @a if score @s mana_recovery matches 2400.. run scoreboard players set @s mana_recovery 0
+execute as @a if score @s mana_recovery matches 60.. run scoreboard players add @s player_mana 1
+execute as @a if score @s mana_recovery matches 60.. run scoreboard players set @s mana_recovery 0
 
     # stop mana overvalues and undervalues:
 

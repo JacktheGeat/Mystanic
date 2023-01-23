@@ -1,1 +1,1 @@
-execute positioned ~ ~1 ~ run function mystanic:particles2
+execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{Mystanic:{id:honey_wand}}}]},scores={player_mana=20..}] run function mystanic:rightclick/offhand/spell/honey_wand

@@ -1,12 +1,12 @@
 {
     "criteria": {
-        "deal_dmg": {
+        "handed_check": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
                      "equipment":{
                           "offhand": {
-                               "nbt": "{tag:{Mystanic:{Handed:1}}}"
+                               "nbt": "{Mystanic:{Handed:1}}"
                           }
                      }
                 }
