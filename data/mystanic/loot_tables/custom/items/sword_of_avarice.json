@@ -1,0 +1,93 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_sword",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Unbreakable:1b,CustomModelData:1,Mystanic:{type:\"weapon\",rarity:\"legendary\",id:\"sword_of_avarice\",Handed:1}}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": [
+                  {
+                    "text": "Sword of Avarice",
+                    "color": "dark_red",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "The Hungry Sword",
+                    "color": "dark_gray"
+                  },
+                  {
+                    "text": "\"I hunger... I thirst...\"",
+                    "color": "red",
+                    "bold": true,
+                    "italic": true
+                  },
+                  [
+                    {
+                      "text": "0",
+                      "color": "dark_red",
+                      "italic": false
+                    },
+                    {
+                      "text": "",
+                      "color": "red"
+                    }
+                  ],
+                  {
+                    "text": "Weapon",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Legendary",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_attributes",
+            "modifiers": [
+              {
+                "attribute": "minecraft:generic.attack_damage",
+                "name": "attack damage",
+                "amount": 0,
+                "operation": "addition",
+                "slot": "mainhand"
+              },
+              {
+                "attribute": "minecraft:generic.attack_speed",
+                "name": "attack speed",
+                "amount": -3,
+                "operation": "addition",
+                "slot": "mainhand"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

@@ -2,10 +2,12 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "flags": {
-    },
+    "flags": {},
     "equipment": {
       "offhand": {
+        "items": [
+          "minecraft:carrot_on_a_stick"
+        ],
         "nbt": "{Mystanic:{}}"
       }
     }
