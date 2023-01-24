@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick{display:{Name:'{"text": "unrefined_aerus","color":"light_gray"}',Lore:[]}, Mystanic:{type: spell, id: unrefined_aerus_1, material: aerus, subtype: aerus, Num: 1, Handed: 0, Attributes:{}}}

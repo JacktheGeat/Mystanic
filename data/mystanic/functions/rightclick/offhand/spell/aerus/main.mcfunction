@@ -1,0 +1,1 @@
+execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{Mystanic:{id:unrefined_aerus_1}}}]},scores={player_mana=6..}] run function mystanic:rightclick/offhand/spell/aerus/unrefined_1
