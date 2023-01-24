@@ -2,13 +2,9 @@
 Made by **JacktheGEAT**
 
 co-editors/people who helped a bit:
-
     Puff
-
     DumByAWaffle
-
     VeSaucy
-
     idk they helped a ton at the start but im doing this solo now.
 
 Make sure you download the resource pack here:
