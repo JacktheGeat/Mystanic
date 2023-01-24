@@ -1,7 +1,7 @@
 ﻿# Mystanic Datapack
 Made by **JacktheGEAT**
 
-co-editors:
+co-editors/people who helped a bit:
 
     Puff
 
