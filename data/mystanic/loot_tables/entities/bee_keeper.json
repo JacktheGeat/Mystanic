@@ -1,85 +1,110 @@
 {
-    "type": "minecraft:entity",
-    "pools": [
-      {
-        "rolls": {"min":2,"max":4},
-        "bonus_rolls": 2,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "weight": 50,
-            "quality": 3,
-            "name": "minecraft:honey_bottle",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 1,
-                  "max": 3
-                }
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 50,
-            "quality": 2,
-            "name": "minecraft:honeycomb",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 3,
-                  "max": 6
-                }
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 1,
-            "quality": 6,
-            "name": "minecraft:bee_spawn_egg"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 10,
-            "quality": 5,
-            "name": "minecraft:lingering_potion",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{HideFlags:3,mystanic:{id:\"honey_potion\"},CustomPotionColor:16758845,CustomPotionEffects:[{Id:26,Amplifier:0b,Duration:0}]}"
-              },
-              {
-                "function": "set_name",
-                "name": [
-                  {
-                    "text": "Honey Potion",
-                    "color": "gold",
-                    "italic": false
-                  }
-                ]
-              }
-            ]
-          }
-        ]
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 4
       },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:carrot_on_a_stick",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:52,Mystanic:{type: spell, id: honey_wand, material: unique, subtype: wand, Num: 16, Handed: 0, Attributes:{poison:2}}}"
+      "bonus_rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "quality": 3,
+          "name": "minecraft:honey_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "quality": 2,
+          "name": "minecraft:honeycomb",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "quality": 6,
+          "name": "minecraft:bee_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 5,
+          "name": "minecraft:lingering_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:3,mystanic:{id:\"honey_potion\"},CustomPotionColor:16758845,CustomPotionEffects:[{Id:26,Amplifier:0b,Duration:0}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "Honey Potion",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Honey Wand",
+                "color": "gold",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Wand",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "Unique",
+                  "color": "Yellow",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:52,Mystanic:{type: spell, id: honey_wand, material: unique, subtype: wand, Num: 16, Handed: 0, Attributes:{poison:2}}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

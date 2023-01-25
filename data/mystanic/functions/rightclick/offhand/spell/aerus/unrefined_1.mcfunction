@@ -1,1 +1,1 @@
-say unrefined 1
+say left click unrefined aerus 1
