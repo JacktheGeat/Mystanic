@@ -1,2 +1,2 @@
-execute if entity @s[predicate=sneaking] run say shift form
-execute if entity @s[predicate=!sneaking] run say activate ability
+execute if entity @s[nbt={SelectedItem:{tag:{Mystanic:{subtype:greatsword}}}}] run function mystanic:rightclick/mainhand/weapon/iron/greatsword
+execute if entity @s[nbt={SelectedItem:{tag:{Mystanic:{subtype:battleaxe}}}}] run function mystanic:rightclick/mainhand/weapon/iron/battleaxe

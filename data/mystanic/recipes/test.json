@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+      "item": "minecraft:iron_sword"
+    },
+    "result": "minecraft:knowledge_book",
+    "tags":{
+        "Recipes":["minecraft:gold_nugget"]
+    },
+    "count": 1
+  }
+  

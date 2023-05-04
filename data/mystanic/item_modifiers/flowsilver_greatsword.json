@@ -1,0 +1,5 @@
+{
+    "function": "set_nbt",
+    "conditions": [],
+    "tag": "{CustomModelData: 0,display:{Lore:['[{\"text\":\"Current Form: \",\"color\":\"red\"},{\"text\":\"Greatsword\",\"color\": \"gold\",\"italic\": false}]','{\"text\":\"Right Click: Activate weapon ability\"}','{\"text\":\"Shift+Right Click: Change weapon form.\"}']},Mystanic:{subtype: greatsword}}"
+}
