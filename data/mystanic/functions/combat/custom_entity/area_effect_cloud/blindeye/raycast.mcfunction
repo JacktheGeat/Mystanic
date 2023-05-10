@@ -1,0 +1,3 @@
+particle dust 0.11 0.53 0.3 0.2 ~ ~ ~ 0 0 0 0 1
+execute if block ^ ^ ^0.5 #mystanic:air if entity @s[distance=..20] positioned ~ ~-1.5 ~ unless entity @p[distance=..0.25] positioned ~ ~1.5 ~ positioned ^ ^ ^0.5 run function mystanic:combat/custom_entity/area_effect_cloud/blindeye/raycast
+execute positioned ~ ~-1.5 ~ if entity @p[distance=..0.25] as @p anchored eyes facing entity @e[tag=blind_eye] eyes anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..0.5] run effect give @s blindness 2 0 true
