@@ -13,3 +13,5 @@ execute as @a run function mystanic:combat/sword_of_avarice/main
 
 # resets all players rightclick to 0
 scoreboard players set @a right_click 0
+
+execute as @p at @s anchored eyes run function mystanic:test

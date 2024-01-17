@@ -1,184 +1,185 @@
-#Particles Generated with: Cloud Wolf's Particle Grapher
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.000 ~0.500 ~1.000 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.322 ~0.453 ~0.947 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.610 ~0.321 ~0.793 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.833 ~0.128 ~0.554 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.967 ~-0.088 ~0.256 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.998 ~-0.288 ~-0.068 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.922 ~-0.434 ~-0.386 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.749 ~-0.498 ~-0.663 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.496 ~-0.469 ~-0.868 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.190 ~-0.351 ~-0.982 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.137 ~-0.167 ~-0.991 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.448 ~0.048 ~-0.894 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.712 ~0.254 ~-0.702 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.900 ~0.413 ~-0.435 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.993 ~0.493 ~-0.122 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.979 ~0.481 ~0.204 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.861 ~0.379 ~0.509 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.651 ~0.205 ~0.759 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.372 ~-0.007 ~0.928 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.054 ~-0.218 ~0.999 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.271 ~-0.388 ~0.963 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.566 ~-0.485 ~0.824 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.802 ~-0.491 ~0.598 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.951 ~-0.404 ~0.308 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~1.000 ~-0.241 ~-0.015 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.942 ~-0.033 ~-0.336 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.783 ~0.181 ~-0.621 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.542 ~0.361 ~-0.841 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.242 ~0.474 ~-0.970 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.083 ~0.497 ~-0.997 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.400 ~0.427 ~-0.917 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.674 ~0.276 ~-0.739 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.876 ~0.074 ~-0.483 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.985 ~-0.143 ~-0.175 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.988 ~-0.332 ~0.151 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.887 ~-0.459 ~0.462 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.691 ~-0.500 ~0.723 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.422 ~-0.446 ~0.907 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.107 ~-0.309 ~0.994 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.219 ~-0.114 ~0.976 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.521 ~0.103 ~0.853 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.768 ~0.300 ~0.640 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.934 ~0.441 ~0.359 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.999 ~0.499 ~0.039 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.959 ~0.463 ~-0.285 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.816 ~0.340 ~-0.579 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.586 ~0.153 ~-0.810 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.294 ~-0.063 ~-0.956 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.030 ~-0.267 ~-1.000 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.350 ~-0.421 ~-0.937 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.633 ~-0.496 ~-0.774 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.849 ~-0.477 ~-0.529 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.974 ~-0.369 ~-0.228 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.995 ~-0.191 ~0.098 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.911 ~0.022 ~0.413 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.729 ~0.232 ~0.685 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.470 ~0.397 ~0.883 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.160 ~0.489 ~0.987 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.166 ~0.488 ~0.986 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.475 ~0.395 ~0.880 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.733 ~0.228 ~0.680 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.913 ~0.018 ~0.408 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.996 ~-0.195 ~0.092 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.972 ~-0.371 ~-0.233 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.846 ~-0.478 ~-0.534 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.629 ~-0.495 ~-0.778 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.345 ~-0.419 ~-0.939 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.024 ~-0.264 ~-1.000 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.299 ~-0.059 ~-0.954 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.591 ~0.157 ~-0.807 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.819 ~0.343 ~-0.574 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.960 ~0.465 ~-0.279 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.999 ~0.499 ~0.045 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.931 ~0.440 ~0.364 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.765 ~0.297 ~0.644 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.516 ~0.099 ~0.856 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.213 ~-0.118 ~0.977 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.113 ~-0.312 ~0.994 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.427 ~-0.448 ~0.904 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.695 ~-0.500 ~0.719 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.890 ~-0.458 ~0.456 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.989 ~-0.329 ~0.146 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.984 ~-0.139 ~-0.181 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.873 ~0.078 ~-0.488 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.669 ~0.279 ~-0.743 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.394 ~0.429 ~-0.919 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.078 ~0.497 ~-0.997 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.248 ~0.472 ~-0.969 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.546 ~0.359 ~-0.837 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.787 ~0.177 ~-0.617 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.944 ~-0.037 ~-0.331 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-1.000 ~-0.245 ~-0.009 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.950 ~-0.406 ~0.313 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.798 ~-0.491 ~0.603 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.562 ~-0.484 ~0.827 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.265 ~-0.386 ~0.964 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.059 ~-0.215 ~0.998 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.378 ~-0.004 ~0.926 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.656 ~0.208 ~0.755 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.864 ~0.381 ~0.504 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.980 ~0.482 ~0.199 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.992 ~0.493 ~-0.128 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.898 ~0.410 ~-0.440 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.708 ~0.251 ~-0.706 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.443 ~0.044 ~-0.896 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.131 ~-0.171 ~-0.991 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.195 ~-0.354 ~-0.981 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.501 ~-0.470 ~-0.866 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.753 ~-0.498 ~-0.658 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.925 ~-0.432 ~-0.381 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.998 ~-0.285 ~-0.063 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.965 ~-0.085 ~0.262 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.829 ~0.132 ~0.559 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.605 ~0.324 ~0.796 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.317 ~0.455 ~0.949 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.006 ~0.500 ~1.000 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.328 ~0.451 ~0.945 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.614 ~0.318 ~0.789 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.836 ~0.124 ~0.549 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.968 ~-0.092 ~0.251 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.997 ~-0.292 ~-0.074 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.920 ~-0.436 ~-0.391 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.745 ~-0.499 ~-0.667 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.491 ~-0.467 ~-0.871 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.184 ~-0.348 ~-0.983 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.142 ~-0.163 ~-0.990 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.454 ~0.052 ~-0.891 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.716 ~0.258 ~-0.698 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.903 ~0.415 ~-0.430 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.993 ~0.494 ~-0.116 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.978 ~0.480 ~0.210 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.858 ~0.376 ~0.514 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.647 ~0.201 ~0.763 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.367 ~-0.011 ~0.930 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.048 ~-0.222 ~0.999 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.276 ~-0.391 ~0.961 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.571 ~-0.486 ~0.821 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.805 ~-0.490 ~0.593 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.953 ~-0.402 ~0.302 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~1.000 ~-0.238 ~-0.021 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.940 ~-0.029 ~-0.342 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.780 ~0.185 ~-0.626 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.537 ~0.364 ~-0.844 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.236 ~0.475 ~-0.972 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.089 ~0.496 ~-0.996 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.405 ~0.425 ~-0.914 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.678 ~0.273 ~-0.735 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.879 ~0.070 ~-0.478 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.986 ~-0.146 ~-0.169 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.988 ~-0.335 ~0.157 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.884 ~-0.461 ~0.467 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.687 ~-0.500 ~0.727 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.416 ~-0.445 ~0.909 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.101 ~-0.306 ~0.995 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.224 ~-0.110 ~0.974 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.526 ~0.107 ~0.850 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.772 ~0.304 ~0.636 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.936 ~0.443 ~0.353 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.999 ~0.500 ~0.033 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.957 ~0.462 ~-0.291 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.812 ~0.337 ~-0.583 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.581 ~0.149 ~-0.814 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.288 ~-0.067 ~-0.958 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.036 ~-0.270 ~-0.999 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.355 ~-0.423 ~-0.935 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.638 ~-0.496 ~-0.770 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.852 ~-0.476 ~-0.524 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.975 ~-0.366 ~-0.222 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.995 ~-0.188 ~0.104 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.908 ~0.026 ~0.419 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.725 ~0.235 ~0.689 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.465 ~0.400 ~0.886 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~-0.155 ~0.489 ~0.988 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.172 ~0.487 ~0.985 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.480 ~0.393 ~0.877 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.737 ~0.225 ~0.676 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.915 ~0.015 ~0.403 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.996 ~-0.198 ~0.087 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.971 ~-0.374 ~-0.239 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.842 ~-0.479 ~-0.539 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.624 ~-0.494 ~-0.781 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.339 ~-0.417 ~-0.941 0 0 0 0 1 force @a
-particle dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556 ~0.018 ~-0.260 ~-1.000 0 0 0 0 1 force @a
+#$particles Generated with: Cloud Wolf's $particle Grapher
+# dust_color_transition 0.219 0.937 0.49 1 0.06 0.6 0.556
+$particle $(particle) ~0.000 ~0.500 ~1.000 0 0 0 0 1 force @a
+$particle $(particle) ~0.322 ~0.453 ~0.947 0 0 0 0 1 force @a
+$particle $(particle) ~0.610 ~0.321 ~0.793 0 0 0 0 1 force @a
+$particle $(particle) ~0.833 ~0.128 ~0.554 0 0 0 0 1 force @a
+$particle $(particle) ~0.967 ~-0.088 ~0.256 0 0 0 0 1 force @a
+$particle $(particle) ~0.998 ~-0.288 ~-0.068 0 0 0 0 1 force @a
+$particle $(particle) ~0.922 ~-0.434 ~-0.386 0 0 0 0 1 force @a
+$particle $(particle) ~0.749 ~-0.498 ~-0.663 0 0 0 0 1 force @a
+$particle $(particle) ~0.496 ~-0.469 ~-0.868 0 0 0 0 1 force @a
+$particle $(particle) ~0.190 ~-0.351 ~-0.982 0 0 0 0 1 force @a
+$particle $(particle) ~-0.137 ~-0.167 ~-0.991 0 0 0 0 1 force @a
+$particle $(particle) ~-0.448 ~0.048 ~-0.894 0 0 0 0 1 force @a
+$particle $(particle) ~-0.712 ~0.254 ~-0.702 0 0 0 0 1 force @a
+$particle $(particle) ~-0.900 ~0.413 ~-0.435 0 0 0 0 1 force @a
+$particle $(particle) ~-0.993 ~0.493 ~-0.122 0 0 0 0 1 force @a
+$particle $(particle) ~-0.979 ~0.481 ~0.204 0 0 0 0 1 force @a
+$particle $(particle) ~-0.861 ~0.379 ~0.509 0 0 0 0 1 force @a
+$particle $(particle) ~-0.651 ~0.205 ~0.759 0 0 0 0 1 force @a
+$particle $(particle) ~-0.372 ~-0.007 ~0.928 0 0 0 0 1 force @a
+$particle $(particle) ~-0.054 ~-0.218 ~0.999 0 0 0 0 1 force @a
+$particle $(particle) ~0.271 ~-0.388 ~0.963 0 0 0 0 1 force @a
+$particle $(particle) ~0.566 ~-0.485 ~0.824 0 0 0 0 1 force @a
+$particle $(particle) ~0.802 ~-0.491 ~0.598 0 0 0 0 1 force @a
+$particle $(particle) ~0.951 ~-0.404 ~0.308 0 0 0 0 1 force @a
+$particle $(particle) ~1.000 ~-0.241 ~-0.015 0 0 0 0 1 force @a
+$particle $(particle) ~0.942 ~-0.033 ~-0.336 0 0 0 0 1 force @a
+$particle $(particle) ~0.783 ~0.181 ~-0.621 0 0 0 0 1 force @a
+$particle $(particle) ~0.542 ~0.361 ~-0.841 0 0 0 0 1 force @a
+$particle $(particle) ~0.242 ~0.474 ~-0.970 0 0 0 0 1 force @a
+$particle $(particle) ~-0.083 ~0.497 ~-0.997 0 0 0 0 1 force @a
+$particle $(particle) ~-0.400 ~0.427 ~-0.917 0 0 0 0 1 force @a
+$particle $(particle) ~-0.674 ~0.276 ~-0.739 0 0 0 0 1 force @a
+$particle $(particle) ~-0.876 ~0.074 ~-0.483 0 0 0 0 1 force @a
+$particle $(particle) ~-0.985 ~-0.143 ~-0.175 0 0 0 0 1 force @a
+$particle $(particle) ~-0.988 ~-0.332 ~0.151 0 0 0 0 1 force @a
+$particle $(particle) ~-0.887 ~-0.459 ~0.462 0 0 0 0 1 force @a
+$particle $(particle) ~-0.691 ~-0.500 ~0.723 0 0 0 0 1 force @a
+$particle $(particle) ~-0.422 ~-0.446 ~0.907 0 0 0 0 1 force @a
+$particle $(particle) ~-0.107 ~-0.309 ~0.994 0 0 0 0 1 force @a
+$particle $(particle) ~0.219 ~-0.114 ~0.976 0 0 0 0 1 force @a
+$particle $(particle) ~0.521 ~0.103 ~0.853 0 0 0 0 1 force @a
+$particle $(particle) ~0.768 ~0.300 ~0.640 0 0 0 0 1 force @a
+$particle $(particle) ~0.934 ~0.441 ~0.359 0 0 0 0 1 force @a
+$particle $(particle) ~0.999 ~0.499 ~0.039 0 0 0 0 1 force @a
+$particle $(particle) ~0.959 ~0.463 ~-0.285 0 0 0 0 1 force @a
+$particle $(particle) ~0.816 ~0.340 ~-0.579 0 0 0 0 1 force @a
+$particle $(particle) ~0.586 ~0.153 ~-0.810 0 0 0 0 1 force @a
+$particle $(particle) ~0.294 ~-0.063 ~-0.956 0 0 0 0 1 force @a
+$particle $(particle) ~-0.030 ~-0.267 ~-1.000 0 0 0 0 1 force @a
+$particle $(particle) ~-0.350 ~-0.421 ~-0.937 0 0 0 0 1 force @a
+$particle $(particle) ~-0.633 ~-0.496 ~-0.774 0 0 0 0 1 force @a
+$particle $(particle) ~-0.849 ~-0.477 ~-0.529 0 0 0 0 1 force @a
+$particle $(particle) ~-0.974 ~-0.369 ~-0.228 0 0 0 0 1 force @a
+$particle $(particle) ~-0.995 ~-0.191 ~0.098 0 0 0 0 1 force @a
+$particle $(particle) ~-0.911 ~0.022 ~0.413 0 0 0 0 1 force @a
+$particle $(particle) ~-0.729 ~0.232 ~0.685 0 0 0 0 1 force @a
+$particle $(particle) ~-0.470 ~0.397 ~0.883 0 0 0 0 1 force @a
+$particle $(particle) ~-0.160 ~0.489 ~0.987 0 0 0 0 1 force @a
+$particle $(particle) ~0.166 ~0.488 ~0.986 0 0 0 0 1 force @a
+$particle $(particle) ~0.475 ~0.395 ~0.880 0 0 0 0 1 force @a
+$particle $(particle) ~0.733 ~0.228 ~0.680 0 0 0 0 1 force @a
+$particle $(particle) ~0.913 ~0.018 ~0.408 0 0 0 0 1 force @a
+$particle $(particle) ~0.996 ~-0.195 ~0.092 0 0 0 0 1 force @a
+$particle $(particle) ~0.972 ~-0.371 ~-0.233 0 0 0 0 1 force @a
+$particle $(particle) ~0.846 ~-0.478 ~-0.534 0 0 0 0 1 force @a
+$particle $(particle) ~0.629 ~-0.495 ~-0.778 0 0 0 0 1 force @a
+$particle $(particle) ~0.345 ~-0.419 ~-0.939 0 0 0 0 1 force @a
+$particle $(particle) ~0.024 ~-0.264 ~-1.000 0 0 0 0 1 force @a
+$particle $(particle) ~-0.299 ~-0.059 ~-0.954 0 0 0 0 1 force @a
+$particle $(particle) ~-0.591 ~0.157 ~-0.807 0 0 0 0 1 force @a
+$particle $(particle) ~-0.819 ~0.343 ~-0.574 0 0 0 0 1 force @a
+$particle $(particle) ~-0.960 ~0.465 ~-0.279 0 0 0 0 1 force @a
+$particle $(particle) ~-0.999 ~0.499 ~0.045 0 0 0 0 1 force @a
+$particle $(particle) ~-0.931 ~0.440 ~0.364 0 0 0 0 1 force @a
+$particle $(particle) ~-0.765 ~0.297 ~0.644 0 0 0 0 1 force @a
+$particle $(particle) ~-0.516 ~0.099 ~0.856 0 0 0 0 1 force @a
+$particle $(particle) ~-0.213 ~-0.118 ~0.977 0 0 0 0 1 force @a
+$particle $(particle) ~0.113 ~-0.312 ~0.994 0 0 0 0 1 force @a
+$particle $(particle) ~0.427 ~-0.448 ~0.904 0 0 0 0 1 force @a
+$particle $(particle) ~0.695 ~-0.500 ~0.719 0 0 0 0 1 force @a
+$particle $(particle) ~0.890 ~-0.458 ~0.456 0 0 0 0 1 force @a
+$particle $(particle) ~0.989 ~-0.329 ~0.146 0 0 0 0 1 force @a
+$particle $(particle) ~0.984 ~-0.139 ~-0.181 0 0 0 0 1 force @a
+$particle $(particle) ~0.873 ~0.078 ~-0.488 0 0 0 0 1 force @a
+$particle $(particle) ~0.669 ~0.279 ~-0.743 0 0 0 0 1 force @a
+$particle $(particle) ~0.394 ~0.429 ~-0.919 0 0 0 0 1 force @a
+$particle $(particle) ~0.078 ~0.497 ~-0.997 0 0 0 0 1 force @a
+$particle $(particle) ~-0.248 ~0.472 ~-0.969 0 0 0 0 1 force @a
+$particle $(particle) ~-0.546 ~0.359 ~-0.837 0 0 0 0 1 force @a
+$particle $(particle) ~-0.787 ~0.177 ~-0.617 0 0 0 0 1 force @a
+$particle $(particle) ~-0.944 ~-0.037 ~-0.331 0 0 0 0 1 force @a
+$particle $(particle) ~-1.000 ~-0.245 ~-0.009 0 0 0 0 1 force @a
+$particle $(particle) ~-0.950 ~-0.406 ~0.313 0 0 0 0 1 force @a
+$particle $(particle) ~-0.798 ~-0.491 ~0.603 0 0 0 0 1 force @a
+$particle $(particle) ~-0.562 ~-0.484 ~0.827 0 0 0 0 1 force @a
+$particle $(particle) ~-0.265 ~-0.386 ~0.964 0 0 0 0 1 force @a
+$particle $(particle) ~0.059 ~-0.215 ~0.998 0 0 0 0 1 force @a
+$particle $(particle) ~0.378 ~-0.004 ~0.926 0 0 0 0 1 force @a
+$particle $(particle) ~0.656 ~0.208 ~0.755 0 0 0 0 1 force @a
+$particle $(particle) ~0.864 ~0.381 ~0.504 0 0 0 0 1 force @a
+$particle $(particle) ~0.980 ~0.482 ~0.199 0 0 0 0 1 force @a
+$particle $(particle) ~0.992 ~0.493 ~-0.128 0 0 0 0 1 force @a
+$particle $(particle) ~0.898 ~0.410 ~-0.440 0 0 0 0 1 force @a
+$particle $(particle) ~0.708 ~0.251 ~-0.706 0 0 0 0 1 force @a
+$particle $(particle) ~0.443 ~0.044 ~-0.896 0 0 0 0 1 force @a
+$particle $(particle) ~0.131 ~-0.171 ~-0.991 0 0 0 0 1 force @a
+$particle $(particle) ~-0.195 ~-0.354 ~-0.981 0 0 0 0 1 force @a
+$particle $(particle) ~-0.501 ~-0.470 ~-0.866 0 0 0 0 1 force @a
+$particle $(particle) ~-0.753 ~-0.498 ~-0.658 0 0 0 0 1 force @a
+$particle $(particle) ~-0.925 ~-0.432 ~-0.381 0 0 0 0 1 force @a
+$particle $(particle) ~-0.998 ~-0.285 ~-0.063 0 0 0 0 1 force @a
+$particle $(particle) ~-0.965 ~-0.085 ~0.262 0 0 0 0 1 force @a
+$particle $(particle) ~-0.829 ~0.132 ~0.559 0 0 0 0 1 force @a
+$particle $(particle) ~-0.605 ~0.324 ~0.796 0 0 0 0 1 force @a
+$particle $(particle) ~-0.317 ~0.455 ~0.949 0 0 0 0 1 force @a
+$particle $(particle) ~0.006 ~0.500 ~1.000 0 0 0 0 1 force @a
+$particle $(particle) ~0.328 ~0.451 ~0.945 0 0 0 0 1 force @a
+$particle $(particle) ~0.614 ~0.318 ~0.789 0 0 0 0 1 force @a
+$particle $(particle) ~0.836 ~0.124 ~0.549 0 0 0 0 1 force @a
+$particle $(particle) ~0.968 ~-0.092 ~0.251 0 0 0 0 1 force @a
+$particle $(particle) ~0.997 ~-0.292 ~-0.074 0 0 0 0 1 force @a
+$particle $(particle) ~0.920 ~-0.436 ~-0.391 0 0 0 0 1 force @a
+$particle $(particle) ~0.745 ~-0.499 ~-0.667 0 0 0 0 1 force @a
+$particle $(particle) ~0.491 ~-0.467 ~-0.871 0 0 0 0 1 force @a
+$particle $(particle) ~0.184 ~-0.348 ~-0.983 0 0 0 0 1 force @a
+$particle $(particle) ~-0.142 ~-0.163 ~-0.990 0 0 0 0 1 force @a
+$particle $(particle) ~-0.454 ~0.052 ~-0.891 0 0 0 0 1 force @a
+$particle $(particle) ~-0.716 ~0.258 ~-0.698 0 0 0 0 1 force @a
+$particle $(particle) ~-0.903 ~0.415 ~-0.430 0 0 0 0 1 force @a
+$particle $(particle) ~-0.993 ~0.494 ~-0.116 0 0 0 0 1 force @a
+$particle $(particle) ~-0.978 ~0.480 ~0.210 0 0 0 0 1 force @a
+$particle $(particle) ~-0.858 ~0.376 ~0.514 0 0 0 0 1 force @a
+$particle $(particle) ~-0.647 ~0.201 ~0.763 0 0 0 0 1 force @a
+$particle $(particle) ~-0.367 ~-0.011 ~0.930 0 0 0 0 1 force @a
+$particle $(particle) ~-0.048 ~-0.222 ~0.999 0 0 0 0 1 force @a
+$particle $(particle) ~0.276 ~-0.391 ~0.961 0 0 0 0 1 force @a
+$particle $(particle) ~0.571 ~-0.486 ~0.821 0 0 0 0 1 force @a
+$particle $(particle) ~0.805 ~-0.490 ~0.593 0 0 0 0 1 force @a
+$particle $(particle) ~0.953 ~-0.402 ~0.302 0 0 0 0 1 force @a
+$particle $(particle) ~1.000 ~-0.238 ~-0.021 0 0 0 0 1 force @a
+$particle $(particle) ~0.940 ~-0.029 ~-0.342 0 0 0 0 1 force @a
+$particle $(particle) ~0.780 ~0.185 ~-0.626 0 0 0 0 1 force @a
+$particle $(particle) ~0.537 ~0.364 ~-0.844 0 0 0 0 1 force @a
+$particle $(particle) ~0.236 ~0.475 ~-0.972 0 0 0 0 1 force @a
+$particle $(particle) ~-0.089 ~0.496 ~-0.996 0 0 0 0 1 force @a
+$particle $(particle) ~-0.405 ~0.425 ~-0.914 0 0 0 0 1 force @a
+$particle $(particle) ~-0.678 ~0.273 ~-0.735 0 0 0 0 1 force @a
+$particle $(particle) ~-0.879 ~0.070 ~-0.478 0 0 0 0 1 force @a
+$particle $(particle) ~-0.986 ~-0.146 ~-0.169 0 0 0 0 1 force @a
+$particle $(particle) ~-0.988 ~-0.335 ~0.157 0 0 0 0 1 force @a
+$particle $(particle) ~-0.884 ~-0.461 ~0.467 0 0 0 0 1 force @a
+$particle $(particle) ~-0.687 ~-0.500 ~0.727 0 0 0 0 1 force @a
+$particle $(particle) ~-0.416 ~-0.445 ~0.909 0 0 0 0 1 force @a
+$particle $(particle) ~-0.101 ~-0.306 ~0.995 0 0 0 0 1 force @a
+$particle $(particle) ~0.224 ~-0.110 ~0.974 0 0 0 0 1 force @a
+$particle $(particle) ~0.526 ~0.107 ~0.850 0 0 0 0 1 force @a
+$particle $(particle) ~0.772 ~0.304 ~0.636 0 0 0 0 1 force @a
+$particle $(particle) ~0.936 ~0.443 ~0.353 0 0 0 0 1 force @a
+$particle $(particle) ~0.999 ~0.500 ~0.033 0 0 0 0 1 force @a
+$particle $(particle) ~0.957 ~0.462 ~-0.291 0 0 0 0 1 force @a
+$particle $(particle) ~0.812 ~0.337 ~-0.583 0 0 0 0 1 force @a
+$particle $(particle) ~0.581 ~0.149 ~-0.814 0 0 0 0 1 force @a
+$particle $(particle) ~0.288 ~-0.067 ~-0.958 0 0 0 0 1 force @a
+$particle $(particle) ~-0.036 ~-0.270 ~-0.999 0 0 0 0 1 force @a
+$particle $(particle) ~-0.355 ~-0.423 ~-0.935 0 0 0 0 1 force @a
+$particle $(particle) ~-0.638 ~-0.496 ~-0.770 0 0 0 0 1 force @a
+$particle $(particle) ~-0.852 ~-0.476 ~-0.524 0 0 0 0 1 force @a
+$particle $(particle) ~-0.975 ~-0.366 ~-0.222 0 0 0 0 1 force @a
+$particle $(particle) ~-0.995 ~-0.188 ~0.104 0 0 0 0 1 force @a
+$particle $(particle) ~-0.908 ~0.026 ~0.419 0 0 0 0 1 force @a
+$particle $(particle) ~-0.725 ~0.235 ~0.689 0 0 0 0 1 force @a
+$particle $(particle) ~-0.465 ~0.400 ~0.886 0 0 0 0 1 force @a
+$particle $(particle) ~-0.155 ~0.489 ~0.988 0 0 0 0 1 force @a
+$particle $(particle) ~0.172 ~0.487 ~0.985 0 0 0 0 1 force @a
+$particle $(particle) ~0.480 ~0.393 ~0.877 0 0 0 0 1 force @a
+$particle $(particle) ~0.737 ~0.225 ~0.676 0 0 0 0 1 force @a
+$particle $(particle) ~0.915 ~0.015 ~0.403 0 0 0 0 1 force @a
+$particle $(particle) ~0.996 ~-0.198 ~0.087 0 0 0 0 1 force @a
+$particle $(particle) ~0.971 ~-0.374 ~-0.239 0 0 0 0 1 force @a
+$particle $(particle) ~0.842 ~-0.479 ~-0.539 0 0 0 0 1 force @a
+$particle $(particle) ~0.624 ~-0.494 ~-0.781 0 0 0 0 1 force @a
+$particle $(particle) ~0.339 ~-0.417 ~-0.941 0 0 0 0 1 force @a
+$particle $(particle) ~0.018 ~-0.260 ~-1.000 0 0 0 0 1 force @a
