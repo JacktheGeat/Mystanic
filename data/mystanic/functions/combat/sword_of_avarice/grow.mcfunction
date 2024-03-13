@@ -1,5 +1,5 @@
 # set -64 to an oak sign with text that shows the number of kills you have
-setblock ~ -64 ~ oak_sign{Text1:'[{"score":{"name":"@p[nbt={SelectedItem:{tag:{Mystanic:{id:\\"sword_of_avarice\\"}}}}]","objective":"avarice_kills"},"color":"dark_red","italic":false},{"text":"\\uE000","color":"red"}]'}
+setblock ~ -64 ~ oak_sign{front_text:{messages:['[{"score":{"name":"@p[nbt={SelectedItem:{tag:{Mystanic:{id:\\"sword_of_avarice\\"}}}}]","objective":"avarice_kills"},"color":"dark_red","italic":false},{"text":"\\uE000","color":"red"}]']}}
 
 # store your item in an editable storage
 data modify storage avarice_data data set from entity @s SelectedItem
