@@ -43,6 +43,7 @@ gamerule commandBlockOutput false
 # make the score of "#100" on CE_dummy is 100 for math stuff
     scoreboard players set #100 CE_dummy 100
 
+    data modify storage avarice_data {} set value {}
 
 
 # Reload Message

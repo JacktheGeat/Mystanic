@@ -5,7 +5,7 @@ setblock ~ -64 ~ oak_sign{front_text:{messages:['[{"score":{"name":"@p[nbt={Sele
 data modify storage avarice_data data set from entity @s SelectedItem
 
 # acquire the lore data from the sign
-data modify storage avarice_data data.tag.display.Lore[3] set from block ~ -64 ~ Text1
+data modify storage avarice_data data.tag.display.Lore[3] set from block ~ -64 ~ front_text.messages[0]
 
 # apply math
 scoreboard players operation #num CE_dummy = @s avarice_kills
