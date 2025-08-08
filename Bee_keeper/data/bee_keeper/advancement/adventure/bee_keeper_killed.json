@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:custom_data": {},
+        "minecraft:profile": {
+          "id": [
+            -1138972544,
+            1304775959,
+            -1677393286,
+            2100926899
+          ],
+          "properties": [
+            {
+                "name":"textures",
+                "value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQ3MzIyZjgzMWUzYzE2OGNmYmQzZTI4ZmU5MjUxNDRiMjYxZTc5ZWIzOWM3NzEzNDlmYWM1NWE4MTI2NDczIn19fQ=="
+            }
+          ]
+        }
+      }
+    },
+    "title": "Abeemination!",
+    "description": "Defeat the Bee Keeper.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bee_keeper:adventure/bee_warned",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton",
+          "nbt": "{Tags:[\"bee_keeper\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

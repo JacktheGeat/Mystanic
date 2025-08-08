@@ -4,6 +4,10 @@
            "description": {
             "text": "Not the BEEEEEEEES!!!!!",
             "color": "yellow",
+            "hover_event": {
+                "action": "show_text",
+                "value": "hi!"
+            }
            }
        }
    }

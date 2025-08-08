@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:honey_block"
+    },
+    "title": "Bee Warned!",
+    "description": "Destroy the habitats of an endangered species and anger their protector.",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/honey_block_slide",
+  "criteria": {
+    "In Flower Biome": {
+      "trigger": "minecraft:bee_nest_destroyed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:bee_nest",
+                "value": {
+                  "min": 3
+                }
+              }
+            ]
+          },
+          "location": {
+            "biomes": "#bee_keeper:bee_keeper_summonable"
+          }
+        },
+        "block": "minecraft:bee_nest"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "In Flower Biome"
+    ]
+  ],
+  "rewards": {
+  }
+}
