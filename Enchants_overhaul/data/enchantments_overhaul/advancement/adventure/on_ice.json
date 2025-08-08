@@ -1,0 +1,99 @@
+{
+  "parent": "minecraft:adventure/throw_trident",
+  "criteria": {
+    "Arctic Chill 1": {
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": "minecraft:trident",
+              "nbt": "{item:{components:{\"minecraft:enchantments\":{\"enchantments_overhaul:arctic_chill\":1}}}}"
+            },
+            "tags": [
+              {
+                "expected": true,
+                "id": "minecraft:is_projectile"
+              }
+            ]
+          }
+        },
+        "entity": {
+          "location": {
+            "fluid": {
+              "fluids": "minecraft:water"
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:player_hurt_entity"
+    },
+    "Arctic Chill 2": {
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": "minecraft:trident",
+              "nbt": "{item:{components:{\"minecraft:enchantments\":{\"enchantments_overhaul:arctic_chill\":2}}}}"
+            },
+            "tags": [
+              {
+                "expected": true,
+                "id": "minecraft:is_projectile"
+              }
+            ]
+          }
+        },
+        "entity": {
+          "location": {
+            "fluid": {
+              "fluids": "minecraft:water"
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:player_hurt_entity"
+    },
+    "Arctic Chill 3": {
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": "minecraft:trident",
+              "nbt": "{item:{components:{\"minecraft:enchantments\":{\"enchantments_overhaul:arctic_chill\":3}}}}"
+            },
+            "tags": [
+              {
+                "expected": true,
+                "id": "minecraft:is_projectile"
+              }
+            ]
+          }
+        },
+        "entity": {
+          "location": {
+            "fluid": {
+              "fluids": "minecraft:water"
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:player_hurt_entity"
+    }
+  },
+  "display": {
+    "description": "Freeze a mob with an Arctic Chill",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:ice"
+    },
+    "title": "On Ice"
+  },
+  "requirements": [
+    [
+      "Arctic Chill 1",
+      "Arctic Chill 2",
+      "Arctic Chill 3"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

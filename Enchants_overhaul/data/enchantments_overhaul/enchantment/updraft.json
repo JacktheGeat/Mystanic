@@ -1,0 +1,101 @@
+{
+  "anvil_cost": 8,
+  "description": "Updraft",
+  "effects": {
+    "minecraft:location_changed": [
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "explode",
+              "radius": 0.01,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "knockback_multiplier": 2,
+              "block_interaction": "none",
+              "small_particle": {
+                "type": "cloud"
+              },
+              "large_particle": {
+                "type": "minecraft:firework"
+              },
+              "sound": {
+                "sound_id": "minecraft:entity.firework_rocket.launch"
+              }
+            },
+            {
+              "type": "change_item_damage",
+              "amount": {
+                "type": "linear",
+                "base": 10,
+                "per_level_above_first": 1
+              }
+            }
+          ]
+        },
+        "requirements": {
+          "condition": "all_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "chest": {
+                    "items": "minecraft:elytra",
+                    "predicates": {
+                      "minecraft:damage": {
+                        "durability": {
+                          "min": 12
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "input": {
+                    "jump": true
+                  }
+                },
+                "flags": {
+                  "is_on_ground": false,
+                  "is_flying": true
+                },
+                "movement": {
+                  "y": {
+                    "max": -1
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 10
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "chest"
+  ],
+  "supported_items": "minecraft:elytra",
+  "weight": 1
+}

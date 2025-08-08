@@ -1,0 +1,44 @@
+{
+  "description": "Moonwalking",
+  "exclusive_set": "minecraft:feather_falling",
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "primary_items": "#minecraft:enchantable/foot_armor",
+  "weight": 1,
+  "max_level": 3,
+  "min_cost": {
+    "base": 16,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 20,
+    "per_level_above_first": 15
+  },
+  "anvil_cost": 5,
+  "slots": [
+    "feet"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:gravity",
+        "id": "enchantments_overhaul:moonwalking_grav",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.2,
+          "per_level_above_first": -0.2
+        },
+        "operation": "add_multiplied_base"
+      },
+      {
+        "attribute": "minecraft:fall_damage_multiplier",
+        "id": "enchantments_overhaul:moonwalking_fall_mult",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.05,
+          "per_level_above_first": -0.05
+        },
+        "operation": "add_multiplied_base"
+      }
+    ]
+  }
+}
