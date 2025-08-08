@@ -1,2 +1,0 @@
-execute if entity @s[tag=placeholder] as @s at @s run function mystanic:combat/custom_entity/area_effect_cloud/custom_potion/placeholder/main
-execute if entity @s[tag=evoker_potion,tag=!placeholder] as @s at @s run function mystanic:combat/custom_entity/area_effect_cloud/custom_potion/effects/evoker_potion2

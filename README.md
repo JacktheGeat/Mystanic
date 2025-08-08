@@ -1,24 +1,16 @@
 ﻿# Mystanic Datapack
-Made by **Jack the GEAT**#6949
+Made by **Jack the GEAT**
+Special thanks to [Misode](https://github.com/misode) and the [Gamemode4](https://github.com/Gamemode4Dev/GM4_Datapacks/) datapack for the tools and inspiration.
 
-co-editors/people who helped a bit:<br />
-    Puff, <br />    DumByAWaffle, <br />    VeSaucy <br />idk they helped a ton at the start but im doing this solo 
-    
+This is a modular datapack that combines multiple datapacks I have made into one. Each of the datapack folders works independently of each other, excluding the minecraft datapack for obvious reasons.
     
 Make sure you download the resource pack here:
   > add resource pack here when you can
 
 just a quick disclaimer: this project is a WORK IN PROGRESS
 
-MAJOR bugs, does barely ANYTHING to base game yet, and half the stuff doesn't work.
-
 also it could have spyware and viruses or something idk. its not like i made it or anything.<br />
 that was a joke i made it it shouldnt break your computer or anything. probably.
-
-How to summon bee keeper, because it works now: 
-  > go to flower forest<br />
-  > break bee nests until warning appears<br />
-  > break bee nests with 20% chance of beekeeper spawning
     
 added give commands: /function mystanic:give/(insert item here)<br />
 also working on loot tables for all custom items. It will be a while don't judge me.

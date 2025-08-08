@@ -1,1 +1,0 @@
-$particle minecraft:vibration $(x) $(y) $(z) 80 ^ ^ ^ 1 1 1 5 2

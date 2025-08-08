@@ -1,1 +1,0 @@
-execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{Mystanic:{id:honey_wand}}}]},scores={player_mana=20..}] run function mystanic:rightclick/offhand/spell/wands/honey_wand

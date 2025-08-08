@@ -1,1 +1,0 @@
-give @s lingering_potion{HideFlags:3,mystanic:{id:"honey_potion"},CustomPotionColor:16758845,CustomPotionEffects:[{Id:26,Amplifier:0b,Duration:0}],display:{Name:'{"text": "Honey Potion","color": "gold","italic": false}'}}

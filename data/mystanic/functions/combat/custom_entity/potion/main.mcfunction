@@ -1,4 +1,0 @@
-execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{mystanic:{id:"honey_potion"}}}}}] run summon area_effect_cloud ~ ~ ~ {Duration:2,Tags:["mystanic_custom","placeholder","honey_spill","custom_potion"]}
-execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{mystanic:{id:"evoker_potion"}}}}}] run summon area_effect_cloud ~ ~ ~ {Duration:2,Tags:["mystanic_custom","placeholder","evoker_potion","custom_potion"]}
-execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{mystanic:{id:"evoker_potion"}}}}}] run say hi
-execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{mystanic:{id:"honey_potion"}}}}}] run say hi
