@@ -5,18 +5,18 @@ execute as @n[tag=current] run data merge entity @s {Tags:["bee_keeper","current
 
 # apply motion to "throw" it
 execute store result score @s dummy run data get entity @s Pos[0] 1000
-execute store result score %temp dummy run data get entity @n[tag=current,limit=1] Pos[0] 1000
-execute store result storage bee_keeper:temp Motion double -0.0005 run scoreboard players operation @s dummy -= %temp dummy
+execute store result score #temp dummy run data get entity @n[tag=current,limit=1] Pos[0] 1000
+execute store result storage bee_keeper:temp Motion double -0.0005 run scoreboard players operation @s dummy -= #temp dummy
 execute as @n[tag=current] run data modify entity @s Motion[0] set from storage bee_keeper:temp Motion
 
 execute store result score @s dummy run data get entity @s Pos[1] 1000
-execute store result score %temp dummy run data get entity @n[tag=current,limit=1] Pos[1] 1000
-execute store result storage bee_keeper:temp Motion double -0.0001 run scoreboard players operation @s dummy -= %temp dummy
+execute store result score #temp dummy run data get entity @n[tag=current,limit=1] Pos[1] 1000
+execute store result storage bee_keeper:temp Motion double -0.0001 run scoreboard players operation @s dummy -= #temp dummy
 execute as @n[tag=current] run data modify entity @s Motion[1] set from storage bee_keeper:temp Motion
 
 execute store result score @s dummy run data get entity @s Pos[2] 1000
-execute store result score %temp dummy run data get entity @n[tag=current,limit=1] Pos[2] 1000
-execute store result storage bee_keeper:temp Motion double -0.0005 run scoreboard players operation @s dummy -= %temp dummy
+execute store result score #temp dummy run data get entity @n[tag=current,limit=1] Pos[2] 1000
+execute store result storage bee_keeper:temp Motion double -0.0005 run scoreboard players operation @s dummy -= #temp dummy
 execute as @n[tag=current] run data modify entity @s Motion[2] set from storage bee_keeper:temp Motion
 
 #remove unnecessary tags

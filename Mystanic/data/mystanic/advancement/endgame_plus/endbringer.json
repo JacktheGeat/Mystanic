@@ -1,14 +1,12 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:end_crystal"
+      "id": "minecraft:dragon_head"
     },
-    "title": "",
-    "description": "",
-    "background": "minecraft:entity/end_portal",
-    "frame": "challenge",
+    "title": "Endbringer",
+    "description": "Calamity follows those who slay dragons",
+    "frame": "goal",
     "show_toast": true,
-    "announce_to_chat": true,
     "hidden": true
   },
   "criteria": {
