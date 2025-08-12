@@ -1,3 +1,7 @@
+# run by bee_keeper/schedule_summon.mcfunction
+# @s = marker
+# located at marker
+
 # Summon Beeper
 particle minecraft:explosion_emitter ~ ~ ~ 0 0 0 0 1
 playsound minecraft:entity.generic.explode hostile @a ~ ~ ~ 10 1
@@ -7,4 +11,4 @@ summon skeleton ~ ~ ~ {Silent:1b,DeathLootTable:"bee_keeper:entities/bee_keeper"
 kill @s
 
 #start the schedule for abilities
-function bee_keeper:bee_keeper/schedule
+schedule function bee_keeper:bee_keeper/schedule 2s

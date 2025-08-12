@@ -1,1 +1,1 @@
-scoreboard objectives add dummy dummy
+scoreboard objectives add bee_keeper.temp dummy

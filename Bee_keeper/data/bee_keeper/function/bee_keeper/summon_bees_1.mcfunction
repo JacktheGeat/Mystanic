@@ -1,3 +1,7 @@
+# run by bee_keeper/attack.mcfunction
+# @s = bee keeper
+# located at bee_keeper
+
 # Summons 2 bees
 summon bee ~ ~ ~
 summon bee ~ ~ ~
