@@ -11,11 +11,3 @@ just a quick disclaimer: this project is a WORK IN PROGRESS
 
 also it could have spyware and viruses or something idk. its not like i made it or anything.<br />
 that was a joke i made it it shouldnt break your computer or anything. probably.
-    
-added give commands: /function mystanic:give/(insert item here)<br />
-also working on loot tables for all custom items. It will be a while don't judge me.
-
-# Known Bugs:
-  > Sword of Avarice buggs out at 214748 kills. if someone manages to get that many kills in a survival world, without commands or hacks, i will give you 100$. until then, thats just too big a number for me to care.
-  >
-  > Dungeons don't now generate underground, but they have a bubble around them. I will have to fix that later somehow.
