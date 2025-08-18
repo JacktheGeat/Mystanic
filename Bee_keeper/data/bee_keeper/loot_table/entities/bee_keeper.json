@@ -156,16 +156,10 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:profile": {
-                  "id": [
-                    -1138972544,
-                    1304775959,
-                    -1677393286,
-                    2100926899
-                  ],
                   "properties": [
                     {
                       "name": "textures",
-                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQ3MzIyZjgzMWUzYzE2OGNmYmQzZTI4ZmU5MjUxNDRiMjYxZTc5ZWIzOWM3NzEzNDlmYWM1NWE4MTI2NDczIn19fQ=="
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTNhODk5MzE2ZjBjYzZhNGFjZGQ0OWE5M2ExMzBhZGMyMDI2OTU3ZGVkMjRiOWVkMzllNWFjN2I2YTcwOTEwMyJ9fX0="
                     }
                   ]
                 }
