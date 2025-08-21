@@ -15,7 +15,7 @@
                 0,
                 0
               ],
-              "knockback_multiplier": 1,
+              "knockback_multiplier": 2,
               "block_interaction": "none",
               "small_particle": {
                 "type": "cloud"
@@ -44,6 +44,24 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
+                "equipment": {
+                  "chest": {
+                    "items": "minecraft:elytra",
+                    "predicates": {
+                      "minecraft:damage": {
+                        "durability": {
+                          "min": 12
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
                 "type_specific": {
                   "type": "player",
                   "input": {
@@ -54,20 +72,9 @@
                   "is_on_ground": false,
                   "is_flying": true
                 },
-                "equipment": {
-                  "chest": {
-                    "predicates": {
-                      "minecraft:damage": {
-                        "durability": {
-                          "min": 12
-                        }
-                      }
-                    }
-                  }
-                },
                 "movement": {
-                  "vertical_speed": {
-                    "max": 2
+                  "y": {
+                    "max": -1
                   }
                 }
               }
