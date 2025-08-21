@@ -1,0 +1,114 @@
+{
+  "anvil_cost": 4,
+  "description": [
+    {
+      "translate": "enchantment.minecraft.mending"
+    },
+    {
+      "text": " + Curse of Breaking",
+      "color": "red"
+    }
+  ],
+  "effects": {
+    "minecraft:repair_with_xp": [
+      {
+        "effect": {
+          "type": "minecraft:multiply",
+          "factor": 2
+        }
+      }
+    ],
+    "minecraft:item_damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "fraction",
+            "denominator": {
+              "type": "minecraft:linear",
+              "base": 10,
+              "per_level_above_first": 5
+            },
+            "numerator": {
+              "type": "minecraft:linear",
+              "base": 2,
+              "per_level_above_first": 2
+            }
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "items": "#minecraft:enchantable/armor"
+              }
+            },
+            {
+              "condition": "minecraft:random_chance",
+              "chance": {
+                "type": "minecraft:binomial",
+                "n": 2,
+                "p": 10
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 1,
+            "per_level_above_first": 0
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": "#minecraft:enchantable/armor",
+                  "predicates": {
+                    "minecraft:damage": {
+                      "durability": {
+                        "min": 3
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:random_chance",
+              "chance": {
+                "type": "minecraft:binomial",
+                "n": 1,
+                "p": 2
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 75,
+    "per_level_above_first": 25
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 25
+  },
+  "slots": [
+    "any"
+  ],
+  "supported_items": "#minecraft:enchantable/durability",
+  "weight": 2
+}
