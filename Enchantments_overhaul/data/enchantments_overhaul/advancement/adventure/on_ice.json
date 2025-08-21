@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:adventure/throw_trident",
   "criteria": {
-    "Arctic Chill 1": {
+    "Thrown 1": {
       "conditions": {
         "damage": {
           "type": {
@@ -17,17 +17,40 @@
             ]
           }
         },
-        "entity": {
-          "location": {
-            "fluid": {
-              "fluids": "minecraft:water"
-            }
+        "entity": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "fluid": {
+                    "fluids": "#minecraft:water"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:weather_check",
+                    "raining": true
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "can_see_sky": true
+                    }
+                  }
+                ]
+              }
+            ]
           }
-        }
+        ]
       },
       "trigger": "minecraft:player_hurt_entity"
     },
-    "Arctic Chill 2": {
+    "Thrown 2": {
       "conditions": {
         "damage": {
           "type": {
@@ -43,17 +66,40 @@
             ]
           }
         },
-        "entity": {
-          "location": {
-            "fluid": {
-              "fluids": "minecraft:water"
-            }
+        "entity": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "fluid": {
+                    "fluids": "#minecraft:water"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:weather_check",
+                    "raining": true
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "can_see_sky": true
+                    }
+                  }
+                ]
+              }
+            ]
           }
-        }
+        ]
       },
       "trigger": "minecraft:player_hurt_entity"
     },
-    "Arctic Chill 3": {
+    "Thrown 3": {
       "conditions": {
         "damage": {
           "type": {
@@ -69,15 +115,58 @@
             ]
           }
         },
-        "entity": {
-          "location": {
-            "fluid": {
-              "fluids": "minecraft:water"
-            }
+        "entity": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "fluid": {
+                    "fluids": "#minecraft:water"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:weather_check",
+                    "raining": true
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "can_see_sky": true
+                    }
+                  }
+                ]
+              }
+            ]
           }
-        }
+        ]
       },
       "trigger": "minecraft:player_hurt_entity"
+    },
+    "Deal Damage": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+            "mainhand": {
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "enchantments_overhaul:arctic_chill"
+                  }
+                ]
+              }
+            }
+          }
+          }
+        }
+      }
     }
   },
   "display": {
@@ -90,9 +179,10 @@
   },
   "requirements": [
     [
-      "Arctic Chill 1",
-      "Arctic Chill 2",
-      "Arctic Chill 3"
+      "Thrown 1",
+      "Thrown 2",
+      "Thrown 3",
+      "Deal Damage"
     ]
   ],
   "sends_telemetry_event": true

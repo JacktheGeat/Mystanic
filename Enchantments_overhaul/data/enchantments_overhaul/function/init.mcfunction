@@ -1,0 +1,1 @@
+scoreboard objectives add enchantments_overhaul.tmp dummy
