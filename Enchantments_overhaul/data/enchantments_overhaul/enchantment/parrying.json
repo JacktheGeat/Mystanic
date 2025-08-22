@@ -1,0 +1,145 @@
+{
+  "primary_items": "#minecraft:swords",
+  "anvil_cost": 4,
+  "description": "Parrying",
+  "effects": {
+    "minecraft:tick": [
+      {
+        "requirements": {
+            "condition": "any_of",
+            "terms": [
+                {
+                    "condition": "all_of",
+                    "terms": [
+                        {
+                            "condition": "inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "equipment": {
+                                        "mainhand": {
+                                            "components": {
+                                                "blocks_attacks": {
+                                                    "block_delay_seconds": 0.6,
+                                                    "disable_cooldown_scale": 1,
+                                                    "damage_reductions": [
+                                                    {
+                                                        "type": "#enchantments_overhaul:blocked_by_parry",
+                                                        "base": 1,
+                                                        "factor": 0.2,
+                                                        "horizontal_blocking_angle": 30
+                                                    }
+                                                    ],
+                                                    "item_damage": {
+                                                    "threshold": 0,
+                                                    "base": 1,
+                                                    "factor": 0.2
+                                                    },
+                                                    "block_sound": "minecraft:block.anvil.place",
+                                                    "disabled_sound": "item.mace.smash_air",
+                                                    "bypassed_by": "#minecraft:bypasses_shield"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "mainhand": {
+                                        "components": {
+                                            "enchantments": {
+                                                "enchantments_overhaul:parrying": 1
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        
+                    ]
+                },
+                {
+                    "condition": "all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "offhand": {
+                                        "components": {
+                                            "enchantments": {
+                                                "enchantments_overhaul:parrying": 1
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "offhand": {
+                                        "components": {
+                                                "blocks_attacks": {
+                                                    "block_delay_seconds": 0.6,
+                                                    "disable_cooldown_scale": 1,
+                                                    "damage_reductions": [
+                                                    {
+                                                        "type": "#enchantments_overhaul:blocked_by_parry",
+                                                        "base": 1,
+                                                        "factor": 0.2,
+                                                        "horizontal_blocking_angle": 30
+                                                    }
+                                                    ],
+                                                    "item_damage": {
+                                                    "threshold": 0,
+                                                    "base": 1,
+                                                    "factor": 0.2
+                                                    },
+                                                    "block_sound": "minecraft:block.anvil.place",
+                                                    "disabled_sound": "item.mace.smash_air",
+                                                    "bypassed_by": "#minecraft:bypasses_shield"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "enchantments_overhaul:parrying/add_parry"
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 75,
+    "per_level_above_first": 25
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 15
+  },
+  "slots": [
+    "hand"
+  ],
+  "supported_items": "#minecraft:swords",
+  "weight": 1
+}

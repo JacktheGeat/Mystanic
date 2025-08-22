@@ -1,0 +1,43 @@
+{
+  "criteria": {
+    "Parrying without enchantment": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "#minecraft:swords",
+          "components": {
+            "minecraft:blocks_attacks": {
+              "block_delay_seconds": 0.6,
+              "disable_cooldown_scale": 1,
+              "damage_reductions": [
+                {
+                  "type": "#enchantments_overhaul:blocked_by_parry",
+                  "base": 1,
+                  "factor": 0.2,
+                  "horizontal_blocking_angle": 30
+                }
+              ],
+              "item_damage": {
+                "threshold": 0,
+                "base": 1,
+                "factor": 0.2
+              },
+              "block_sound": "minecraft:item.axe.wax_off",
+              "disabled_sound": "minecraft:block.note_block.cow_bell",
+              "bypassed_by": "#minecraft:bypasses_shield"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "Parrying without enchantment"
+    ]
+  ],
+  "rewards": {
+    "function": "enchantments_overhaul:parrying/check_enchantment"
+  },
+  "sends_telemetry_event": false
+}

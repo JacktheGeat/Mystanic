@@ -1,5 +1,6 @@
 {
   "anvil_cost": 4,
+  "exclusive_set": "#enchantments_overhaul:exclusive_set/durability_modifiers",
   "description": [
     {
       "translate": "enchantment.minecraft.mending"
