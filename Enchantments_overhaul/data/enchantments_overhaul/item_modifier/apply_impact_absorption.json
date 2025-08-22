@@ -1,0 +1,24 @@
+{
+    "function": "set_components",
+    "components": {
+        "minecraft:blocks_attacks": {
+            "block_delay_seconds": 0.25,
+            "block_sound": "minecraft:item.shield.block",
+            "bypassed_by": "#bypasses_shield",
+            "disabled_sound": "minecraft:item.shield.break",
+            "damage_reductions": [
+                {
+                "type": "#enchantments_overhaul:blocked_by_parry",
+                "base": 1,
+                "factor": 0.2,
+                "horizontal_blocking_angle": 30
+                }
+            ],
+            "item_damage": {
+            "base": 1,
+            "factor": 1,
+            "threshold": 3
+            }
+        }
+    }
+}
