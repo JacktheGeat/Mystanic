@@ -1,0 +1,45 @@
+{
+  "primary_items": "#minecraft:enchantable/mace",
+  "anvil_cost": 6,
+  "description": {
+    "text": "Earthquake"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "id": "minecraft:mace_smash",
+                "expected": true
+              }
+            ],
+            "is_direct": true
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "enchantments_overhaul:earthquake/main"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 8
+  },
+  "max_level": 2,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 8
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/mace",
+  "weight": 4
+}

@@ -22,8 +22,8 @@
                 "base": 1,
                 "factor": 0.2
               },
-              "block_sound": "minecraft:item.axe.wax_off",
-              "disabled_sound": "minecraft:block.note_block.cow_bell",
+              "block_sound": "minecraft:block.anvil.place",
+              "disabled_sound": "item.mace.smash_air",
               "bypassed_by": "#minecraft:bypasses_shield"
             }
           }
