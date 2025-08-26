@@ -3,6 +3,18 @@
   "pools": [
     {
       "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "minecraft:slime",
+              "size": 1
+            }
+          }
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
@@ -17,18 +29,6 @@
                   }
                 }
               }
-            },
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "type_specific": {
-                  "type": "minecraft:slime",
-                  "size": {
-                    "min": 2
-                  }
-                }
-              }
             }
           ],
           "functions": [
@@ -36,8 +36,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": -2.0
+                "max": 2.0,
+                "min": 0.0
               },
               "function": "minecraft:set_count"
             },
@@ -51,7 +51,7 @@
               "function": "minecraft:enchanted_count_increase"
             }
           ],
-          "name": "minecraft:magma_cream"
+          "name": "minecraft:slime_ball"
         },
         {
           "type": "minecraft:item",
@@ -60,10 +60,7 @@
               "condition": "minecraft:damage_source_properties",
               "predicate": {
                 "source_entity": {
-                  "type": "minecraft:frog",
-                  "components": {
-                    "minecraft:frog/variant": "minecraft:warm"
-                  }
+                  "type": "minecraft:frog"
                 }
               }
             }
@@ -75,55 +72,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:pearlescent_froglight"
-        },
-        {
-          "type": "minecraft:item",
-          "conditions": [
-            {
-              "condition": "minecraft:damage_source_properties",
-              "predicate": {
-                "source_entity": {
-                  "type": "minecraft:frog",
-                  "components": {
-                    "minecraft:frog/variant": "minecraft:cold"
-                  }
-                }
-              }
-            }
-          ],
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:verdant_froglight"
-        },
-        {
-          "type": "minecraft:item",
-          "conditions": [
-            {
-              "condition": "minecraft:damage_source_properties",
-              "predicate": {
-                "source_entity": {
-                  "type": "minecraft:frog",
-                  "components": {
-                    "minecraft:frog/variant": "minecraft:temperate"
-                  }
-                }
-              }
-            }
-          ],
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:ochre_froglight"
+          "name": "minecraft:slime_ball"
         }
       ],
       "rolls": 1.0
@@ -138,7 +87,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Magma Cube Head",
+                "text": "Slime Head",
                 "color": "yellow",
                 "bold": false,
                 "italic": false
@@ -147,8 +96,8 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "profile": {
-                  "name": "MHF_LavaSlime"
+                "minecraft:profile": {
+                  "name": "MHF_Slime"
                 }
               }
             }
@@ -168,5 +117,5 @@
       ]
     }
   ],
-  "random_sequence": "minecraft:entities/magma_cube"
+  "random_sequence": "minecraft:entities/slime"
 }
