@@ -11,17 +11,17 @@ Some select enchantments also get unique particle effects as well. Frost walker 
  * Streamline: Trident enchant that increases trident main attack speed (not throw speed). Also grants Dolphin's Grace effect when in water, and Speed 1 when its raining.
  * Explosive Arrows: Crossbow enchantment that causes arrows to explode when hitting an enemy. These explosions will damage the player and terrain as well, so be careful.
  * Implosive Arrows: Crossbow enchant that when hitting an entity, causes a small implosion, pulling in nearby mobs. Implosion does not deal any damage to nearby mobs or terrain.
-  * Currently not acquirable outside commands.
+    * Currently not acquirable outside commands.
  * Resiliance: Armor enchant that grants an extra half heart for each level. A full set with Resiliance 5 doubles your life total.
-  * It is mutually exclusive with protection-type enchantments.
+    * It is mutually exclusive with protection-type enchantments.
  * Moonwalking: A boots enchantment acquirable in end cities. Decreases gravity and fall damage rate. Moonwalking does not increase safe fall distance, only decreases damage by a percent.
-  * Mutually exclusive with feather falling.
+    * Mutually exclusive with feather falling.
  * Flame Walker: Boots enchantment that is the opposite of Frost Walker. You cannot take freezing damage, and you melt powdered snow and snow layer blocks nearby. Also turns cobblestone you walk over into stone in a very small radius.
-  * Will be acquirable as an enchanatment in Bastions, currently not acquirable outside commands.
+    * Will be acquirable as an enchanatment in Bastions, currently not acquirable outside commands.
  * Halfling: Chestpiece enchantment that decreases player size and health. Speed and jump height are unaffected by size changes, only the player's hitbox, model, and viewpoint.
-  * Currently not acquirable outside commands.
+    * Currently not acquirable outside commands.
  * Longstrider: Leggings enchchantment that increases your step-height, so you can walk up a full block without needing to jump. Does not increase jump height as well, you just need to jump less.
-  * Currently not acquirable outside commands.
+    * Currently not acquirable outside commands.
 
 ## New Advancements:
  * On Ice: Granted when you use Arctic Chill on a creature in water, turning where it stands into frosted ice.
