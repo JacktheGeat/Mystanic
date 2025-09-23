@@ -9,6 +9,8 @@ Some select enchantments also get unique particle effects as well. Frost walker 
 ## New Enchantments:
  * Arctic Chill: Trident enchant that applies slowness to hit mobs, and will even freeze the block they are in if they are in water.
  * Streamline: Trident enchant that increases trident main attack speed (not throw speed). Also grants Dolphin's Grace effect when in water, and Speed 1 when its raining.
+ * Earthquake: Mace enchant that will break blocks beneath the target when hit with a smash attack.
+ * Parrying: Sword enchantment that allows you to block with it.
  * Explosive Arrows: Crossbow enchantment that causes arrows to explode when hitting an enemy. These explosions will damage the player and terrain as well, so be careful.
  * Implosive Arrows: Crossbow enchant that when hitting an entity, causes a small implosion, pulling in nearby mobs. Implosion does not deal any damage to nearby mobs or terrain.
     * Currently not acquirable outside commands.
@@ -16,6 +18,9 @@ Some select enchantments also get unique particle effects as well. Frost walker 
     * It is mutually exclusive with protection-type enchantments.
  * Moonwalking: A boots enchantment acquirable in end cities. Decreases gravity and fall damage rate. Moonwalking does not increase safe fall distance, only decreases damage by a percent.
     * Mutually exclusive with feather falling.
+ * Updraft: Elytra enchantment. In exchange for a decent bit of durability, will shoot you up into the air. Pressing space while flying will shoot you straight up into the sky.
+    * Mutually exclusive with Mending
+    * Currently not acquirable outside commands.
  * Flame Walker: Boots enchantment that is the opposite of Frost Walker. You cannot take freezing damage, and you melt powdered snow and snow layer blocks nearby. Also turns cobblestone you walk over into stone in a very small radius.
     * Will be acquirable as an enchanatment in Bastions, currently not acquirable outside commands.
  * Halfling: Chestpiece enchantment that decreases player size and health. Speed and jump height are unaffected by size changes, only the player's hitbox, model, and viewpoint.
@@ -29,3 +34,8 @@ Some select enchantments also get unique particle effects as well. Frost walker 
 ## Balancing:
  * Impaling: Added drowned to the list of entities targeted by the damage increase, but also will deal increased damage to any entity so long as it is in water or in the open rain.
  * Sharpness: Now can be enchanted on tridents.
+ * Mending: 
+    * Automatically gives the item "Curse of breaking"
+    * Mutually exclusive with Unbreaking
+    * Mutually exclusive with enchantments that use durability as a cost, such as updraft.
+    * **CURSE OF BREAKING**: Enchanted items go through durability twice as fast.
