@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:entity",
+  "random_sequence": "minecraft:entities/villager",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Squid Head",
+                "color": "yellow",
+                "bold": false,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:profile": {
+                  "name": "MHF_Villager"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "source_entity": {
+              "type": "minecraft:creeper",
+              "nbt": "{powered:1b}"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
