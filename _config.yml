@@ -4,4 +4,4 @@ plugins:
 
 title: Mystanic
 
-theme: Dinky
+theme: pages-themes/dinky@v0.2.0
