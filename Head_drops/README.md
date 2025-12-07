@@ -1,4 +1,4 @@
-# [Head Drops](/) 
+# [Head Drops](/Mystanic) 
 
 ## Gotta Collect them all!
 With this pack, every mob drops their heads when killed by a charged creeper.
