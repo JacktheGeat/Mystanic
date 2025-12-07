@@ -19,5 +19,3 @@ View the individual packs here:
  * [Head signs](Head_signs)
 
  * [Mystanic endgame+](Mystanic)
-
-[Link Text]("This is the hover text for the link")
