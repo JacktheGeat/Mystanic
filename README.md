@@ -1,4 +1,4 @@
-﻿# Mystanic Datapack
+# [Mystanic Datapack](https://github.com/JacktheGeat/Mystanic)
 Made by **Jack the GEAT**
 Special thanks to [Misode](https://github.com/misode) and the [Gamemode4](https://github.com/Gamemode4Dev/GM4_Datapacks/) datapack for the tools and inspiration.
 
