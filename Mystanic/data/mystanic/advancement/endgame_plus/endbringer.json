@@ -11,17 +11,12 @@
   },
   "criteria": {
     "Return to Overworld": {
-      "trigger": "minecraft:changed_dimension",
+      "trigger": "player_killed_entity",
       "conditions": {
-        "player": [],
-        "from": "minecraft:the_end",
-        "to": "minecraft:overworld"
+        "entity": {
+          "type": "ender_dragon"
+        }
       }
     }
-  },
-  "requirements": [
-    [
-      "Return to Overworld"
-    ]
-  ]
+  }
 }
