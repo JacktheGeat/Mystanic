@@ -8,23 +8,21 @@
           "type": "minecraft:all_of",
           "effects": [
             {
-              "type": "explode",
-              "radius": 0.01,
-              "offset": [
+              "type": "minecraft:apply_impulse",
+              "direction": [
                 0,
+                1,
+                1
+              ],
+              "coordinate_scale": [
                 0,
+                1,
                 0
               ],
-              "knockback_multiplier": 2,
-              "block_interaction": "none",
-              "small_particle": {
-                "type": "cloud"
-              },
-              "large_particle": {
-                "type": "minecraft:firework"
-              },
-              "sound": {
-                "sound_id": "minecraft:entity.firework_rocket.launch"
+              "magnitude": {
+                "type": "minecraft:linear",
+                "base": 0.6,
+                "per_level_above_first": 2
               }
             },
             {
@@ -41,6 +39,27 @@
           "condition": "all_of",
           "terms": [
             {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "enchantments_overhaul.x_rot": {
+                  "max": 0
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:player",
+                  "input": {
+                    "jump": true
+                  }
+                }
+              }
+            },
+            {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
@@ -55,6 +74,63 @@
                       }
                     }
                   }
+                },
+                "flags": {
+                  "is_on_ground": false,
+                  "is_flying": true
+                },
+                "movement": {
+                  "y": {
+                    "max": -1
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_impulse",
+              "direction": [
+                0,
+                1,
+                -1
+              ],
+              "coordinate_scale": [
+                0,
+                1,
+                0
+              ],
+              "magnitude": {
+                "type": "minecraft:linear",
+                "base": 0.6,
+                "per_level_above_first": 2
+              }
+            },
+            {
+              "type": "change_item_damage",
+              "amount": {
+                "type": "linear",
+                "base": 10,
+                "per_level_above_first": 1
+              }
+            }
+          ]
+        },
+        "requirements": {
+          "condition": "all_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "enchantments_overhaul.x_rot": {
+                  "min":0.01,
+                  "max": 90
                 }
               }
             },
@@ -63,9 +139,27 @@
               "entity": "this",
               "predicate": {
                 "type_specific": {
-                  "type": "player",
+                  "type": "minecraft:player",
                   "input": {
                     "jump": true
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "chest": {
+                    "items": "minecraft:elytra",
+                    "predicates": {
+                      "minecraft:damage": {
+                        "durability": {
+                          "min": 12
+                        }
+                      }
+                    }
                   }
                 },
                 "flags": {
