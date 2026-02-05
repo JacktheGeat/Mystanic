@@ -19,8 +19,10 @@ Some select enchantments also get unique particle effects as well. Frost walker 
     * It is mutually exclusive with protection-type enchantments.
  * Moonwalking: A boots enchantment acquirable in end cities. Decreases gravity and fall damage rate. Moonwalking does not increase safe fall distance, only decreases damage by a percent.
     * Mutually exclusive with feather falling.
+ * Swooping: Elytra enchantment. When flying with elytra, looking straight down significantly boosts speed. Risky if you hit the ground, but with practice and enough height, the boost can give enough power to glide higher up than you started.
+    * Mutually exclusive with Updraft
  * Updraft: Elytra enchantment. In exchange for a decent bit of durability, will shoot you up into the air. Pressing space while flying will shoot you straight up into the sky.
-    * Mutually exclusive with Mending
+    * Mutually exclusive with Mending and Swooping
     * Currently not acquirable outside commands.
  * Flame Walker: Boots enchantment that is the opposite of Frost Walker. You cannot take freezing damage, and you melt powdered snow and snow layer blocks nearby. Also turns cobblestone you walk over into stone in a very small radius.
     * Will be acquirable as an enchanatment in Bastions, currently not acquirable outside commands.
