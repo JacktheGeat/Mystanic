@@ -51,6 +51,44 @@
         "enchanted": "attacker",
         "affected": "damaging_entity"
       }
+    ],
+    "minecraft:hit_block": [
+      {
+        "effect": {
+          "type": "all_of",
+          "effects": [
+            {
+              "type": "explode",
+              "attribute_to_user": true,
+              "knockback_multiplier": -2,
+              "offset": [
+                0,
+                0.5,
+                0
+              ],
+              "radius": {
+                "type": "minecraft:linear",
+                "base": 3,
+                "per_level_above_first": 2
+              },
+              "create_fire": false,
+              "block_interaction": "none",
+              "small_particle": {
+                "type": "minecraft:portal"
+              },
+              "large_particle": {
+                "type": "minecraft:portal"
+              },
+              "sound": "minecraft:entity.enderman.teleport"
+            },
+            {
+              "type": "run_function",
+              "function": "enchantments_overhaul:kill_self"
+            }
+          ]
+        }
+        
+      }
     ]
   }
 }
