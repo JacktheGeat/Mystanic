@@ -31,7 +31,7 @@
               "function": "minecraft:enchanted_count_increase"
             }
           ],
-          "name": "minecraft:blaze_rod"
+          "name": "minecraft:emerald"
         }
       ],
       "rolls": 1.0
@@ -46,7 +46,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Blaze Head",
+                "text": "Vindicator Head",
                 "color": "yellow",
                 "bold": false,
                 "italic": false
@@ -59,7 +59,7 @@
                   "properties": [
                     {
                       "name": "textures",
-                      "value": "MHF_Blaze"
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGFlZWQ5ZDhlZDE3NjllNzdlM2NmZTExZGMxNzk2NjhlZDBkYjFkZTZjZTI5ZjFjOGUwZDVmZTVlNjU3M2I2MCJ9fX0="
                     }
                   ]
                 }
@@ -81,5 +81,5 @@
       ]
     }
   ],
-  "random_sequence": "minecraft:entities/blaze"
+  "random_sequence": "minecraft:entities/vindicator"
 }

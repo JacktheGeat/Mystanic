@@ -1,9 +1,8 @@
 {
   "type": "minecraft:entity",
-  "random_sequence": "minecraft:entities/vex",
   "pools": [
     {
-      "rolls": 1,
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -12,7 +11,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Vex Head",
+                "text": "Sheep Head",
                 "color": "yellow",
                 "bold": false,
                 "italic": false
@@ -25,7 +24,7 @@
                   "properties": [
                     {
                       "name": "textures",
-                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY2MzEzNGQ3MzA2YmI2MDQxNzVkMjU3NWQ2ODY3MTRiMDQ0MTJmZTUwMTE0MzYxMWZjZjNjYzE5YmQ3MGFiZSJ9fX0="
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTA2OGQzMzJhYWJlOWI4Nzc0MGIzZmFkZjU1NzI0NTJiZWY2NzlmN2FhNTdlOGVjMWUwMTc2Nzg5NzFhZTgwNyJ9fX0="
                     }
                   ]
                 }
@@ -34,17 +33,7 @@
           ]
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:damage_source_properties",
-          "predicate": {
-            "source_entity": {
-              "type": "minecraft:creeper",
-              "nbt": "{powered:1b}"
-            }
-          }
-        }
-      ]
+      "rolls": 1.0
     }
   ]
 }
