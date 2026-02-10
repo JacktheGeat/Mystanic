@@ -1,7 +1,7 @@
 {
     "function": "set_components",
     "components": {
-        "minecraft:blocks_attacks": {
+    "minecraft:blocks_attacks": {
             "block_delay_seconds": 0.25,
             "block_sound": "minecraft:item.shield.block",
             "bypassed_by": "#minecraft:bypasses_shield",
@@ -10,8 +10,7 @@
                 "base": 1,
                 "factor": 1,
                 "threshold": 3
-            },
-            "disable_cooldown_scale": 1
+            }
         }
     }
 }

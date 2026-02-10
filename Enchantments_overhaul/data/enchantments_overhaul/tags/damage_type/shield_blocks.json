@@ -1,0 +1,24 @@
+{
+    "values": [
+        "minecraft:arrow",
+        "minecraft:bad_respawn_point",
+        "minecraft:explosion",
+        "minecraft:fireball",
+        "minecraft:fireworks",
+        "minecraft:generic",
+        "minecraft:mace_smash",
+        "minecraft:mob_attack",
+        "minecraft:mob_attack_no_aggro",
+        "minecraft:mob_projectile",
+        "minecraft:player_attack",
+        "minecraft:player_explosion",
+        "minecraft:spit",
+        "minecraft:sting",
+        "minecraft:thorns",
+        "minecraft:thrown",
+        "minecraft:trident",
+        "minecraft:unattributed_fireball",
+        "minecraft:wind_charge",
+        "minecraft:wither_skull"
+    ]
+}
