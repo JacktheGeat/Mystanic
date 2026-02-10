@@ -3,11 +3,6 @@
   "pools": [
     {
       "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "minecraft:killed_by_player"
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",
@@ -16,8 +11,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
+                "max": 3.0,
+                "min": 1.0
               },
               "function": "minecraft:set_count"
             },
@@ -31,7 +26,7 @@
               "function": "minecraft:enchanted_count_increase"
             }
           ],
-          "name": "minecraft:blaze_rod"
+          "name": "minecraft:rotten_flesh"
         }
       ],
       "rolls": 1.0
@@ -46,9 +41,8 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Blaze Head",
+                "text": "Zoglin Head",
                 "color": "yellow",
-                "bold": false,
                 "italic": false
               }
             },
@@ -59,7 +53,7 @@
                   "properties": [
                     {
                       "name": "textures",
-                      "value": "MHF_Blaze"
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY3ZTE4NjAyZTAzMDM1YWQ2ODk2N2NlMDkwMjM1ZDg5OTY2NjNmYjllYTQ3NTc4ZDNhN2ViYmM0MmE1Y2NmOSJ9fX0="
                     }
                   ]
                 }
@@ -81,5 +75,5 @@
       ]
     }
   ],
-  "random_sequence": "minecraft:entities/blaze"
+  "random_sequence": "minecraft:entities/zoglin"
 }
