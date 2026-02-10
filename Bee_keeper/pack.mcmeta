@@ -1,9 +1,10 @@
  {
        "pack": {
-           "pack_format": 94.1,
-           "description": {
-            "text": "Not the BEEEEEEEES!!!!!",
-            "color": "yellow"
-           }
+            "min_format": [94, 0],
+            "max_format": [94, 0],
+            "description": {
+                "text": "Not the BEEEEEEEES!!!!!",
+                "color": "yellow"
+            }
        }
    }
