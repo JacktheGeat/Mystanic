@@ -1,7 +1,3 @@
-[submodule "Bee Keeper"]
+[submodule "Bee_keeper"]
 	path = Bee_keeper
 	url = https://github.com/JacktheGeat/Bee_Keeper.git
-
-[submodule "Enchantments Overhaul"]
-	path = Enchantments_overhaul
-	url = https://github.com/JacktheGeat/Better-MC-Enchants.git
