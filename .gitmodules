@@ -1,3 +1,6 @@
 [submodule "Bee_keeper"]
 	path = Bee_keeper
 	url = https://github.com/JacktheGeat/Bee_Keeper.git
+[submodule "Enchantments_overhaul"]
+	path = Enchantments_overhaul
+	url = https://github.com/JacktheGeat/Better-MC-Enchants.git
