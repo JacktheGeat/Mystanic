@@ -1,0 +1,1 @@
+scoreboard objectives add bee_keeper.temp dummy
