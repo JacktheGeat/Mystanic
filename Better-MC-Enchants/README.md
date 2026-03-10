@@ -6,7 +6,7 @@ In this datapack I am looking to fix some of the newer tools added to the game, 
 Tridents and crossbows get unique enchantments highlighting their strengths, and new endgame enchantments are added as findable loot in dungeons, end cities, and bastions.
 
 Some select enchantments also get unique particle effects as well. Frost walker now generates snowflake particles around your feet, and respiration has bubbles appear over your head while in water. This might get removed later, as I don't think it makes sense to add particles for only a handful of specific enchantments, but they look cool.
- 
+
 ### New Enchantments:
  * Arctic Chill: Trident enchant that applies slowness to hit mobs, and will even freeze the block they are in if they are in water.
  * Streamline: Trident enchant that increases trident main attack speed (not throw speed). Also grants Dolphin's Grace effect when in water, and Speed 1 when its raining.
