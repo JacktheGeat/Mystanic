@@ -3,7 +3,7 @@ Made by **Jack the GEAT**
 Special thanks to [Misode](https://github.com/misode) and the [Gamemode4](https://github.com/Gamemode4Dev/GM4_Datapacks/) datapack for the tools and inspiration.
 
 This is a modular pack that combines multiple datapacks I have made into one. Each of the datapack folders works independently of each other, excluding the minecraft datapack for obvious reasons.
-    
+     
 Make sure you download the resource pack here:
   > add resource pack here when you can
 
