@@ -6,7 +6,7 @@ Summoning an army of ever-angry bees that can sting several times, the Bee Keepe
  * Summon Bees: Summons a pair of Bees
  * Summon Soldier: Summon a faster, stronger, and tougher bee.
  * Honey Spill: Throw a potion that afflicts any players hit with a slowness and jumping debuff, mimicking the effects of standing in a honey block.
- 
+
 ### Sticky-Sweet prizes
 Defeating the Bee Keeper grants a variety of bee-related items like blocks of honey, honeycomb, and honeycomb blocks.
 Additionally there are a few bonus items:
