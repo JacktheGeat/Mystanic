@@ -1,0 +1,56 @@
+{
+  "description": "Implosive Arrows",
+  "exclusive_set": [
+    "minecraft:piercing",
+    "enchantments_overhaul:explosive_arrows"
+  ],
+  "supported_items": "#minecraft:enchantable/crossbow",
+  "primary_items": "#minecraft:enchantable/crossbow",
+  "weight": 1,
+  "max_level": 2,
+  "min_cost": {
+    "base": 16,
+    "per_level_above_first": 5
+  },
+  "max_cost": {
+    "base": 20,
+    "per_level_above_first": 8
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "hand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "explode",
+          "attribute_to_user": true,
+          "knockback_multiplier": -2,
+          "damage_type": "fireworks",
+          "offset": [
+            0,
+            0.5,
+            0
+          ],
+          "radius": {
+            "type": "minecraft:linear",
+            "base": 3,
+            "per_level_above_first": 2
+          },
+          "create_fire": false,
+          "block_interaction": "none",
+          "small_particle": {
+            "type": "minecraft:portal"
+          },
+          "large_particle": {
+            "type": "minecraft:portal"
+          },
+          "sound": "minecraft:entity.enderman.teleport"
+        },
+        "enchanted": "attacker",
+        "affected": "damaging_entity"
+      }
+    ]
+  }
+}

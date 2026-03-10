@@ -1,0 +1,77 @@
+{
+  "anvil_cost": 8,
+  "description": "Updraft",
+  "effects": {
+    "minecraft:location_changed": [
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_impulse",
+              "direction": [
+                0,
+                0,
+                1
+              ],
+              "coordinate_scale": [
+                0.2,
+                1,
+                0.2
+              ],
+              "magnitude": {
+                "type": "minecraft:linear",
+                "base": 0.2,
+                "per_level_above_first": 0.1
+              }
+            }
+          ]
+        },
+        "requirements": {
+          "condition": "all_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "enchantments_overhaul.x_rot": {
+                  "min": 75
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "flags": {
+                  "is_on_ground": false,
+                  "is_flying": true
+                },
+                "movement": {
+                  "y": {
+                    "max": 0
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 16,
+    "per_level_above_first": 10
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "chest"
+  ],
+  "supported_items": "minecraft:elytra",
+  "weight": 1,
+  "exclusive_set": "#enchantments_overhaul:exclusive_set/elytra_exclusive"
+}

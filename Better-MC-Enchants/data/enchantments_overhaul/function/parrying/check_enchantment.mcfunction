@@ -1,0 +1,3 @@
+execute unless items entity @s weapon.mainhand #swords[minecraft:enchantments={"enchantments_overhaul:parrying":1}] run item modify entity @s weapon.mainhand enchantments_overhaul:remove_parry
+execute unless items entity @s weapon.offhand #swords[minecraft:enchantments={"enchantments_overhaul:parrying":1}] run item modify entity @s weapon.offhand enchantments_overhaul:remove_parry
+advancement revoke @s only enchantments_overhaul:enchantment/detect_parry

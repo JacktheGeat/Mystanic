@@ -1,0 +1,274 @@
+{
+  "anvil_cost": 4,
+  "description": "Flame Walker",
+  "effects": {
+    "minecraft:damage_immunity": [
+      {
+        "effect": {},
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "minecraft:is_freezing"
+              },
+              {
+                "expected": false,
+                "id": "minecraft:bypasses_invulnerability"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "minecraft:location_changed": [
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:replace_disk",
+              "block_state": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:stone"
+                }
+              },
+              "height": 1,
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "predicate": {
+                "type": "minecraft:all_of",
+                "predicates": [
+                  {
+                    "type": "minecraft:matching_block_tag",
+                    "offset": [
+                      0,
+                      1,
+                      0
+                    ],
+                    "tag": "minecraft:air"
+                  },
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "minecraft:cobblestone"
+                  },
+                  {
+                    "type": "minecraft:unobstructed"
+                  }
+                ]
+              },
+              "radius": {
+                "type": "minecraft:clamped",
+                "max": 255,
+                "min": 0,
+                "value": {
+                  "type": "minecraft:linear",
+                  "base": 0.5,
+                  "per_level_above_first": 1
+                }
+              },
+              "trigger_game_event": "minecraft:block_place"
+            },
+            {
+              "type": "minecraft:replace_disk",
+              "block_state": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:air"
+                }
+              },
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "predicate": {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:snow"
+                ]
+              },
+              "radius": {
+                "type": "minecraft:clamped",
+                "value": {
+                  "type": "minecraft:linear",
+                  "base": 3,
+                  "per_level_above_first": 1
+                },
+                "min": 0,
+                "max": 255
+              },
+              "height": 0
+            },
+            {
+              "type": "minecraft:replace_disk",
+              "block_state": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:air"
+                }
+              },
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "predicate": {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:snow"
+                ]
+              },
+              "trigger_game_event": "minecraft:sculk_sensor_tendrils_clicking",
+              "radius": {
+                "type": "minecraft:clamped",
+                "value": {
+                  "type": "minecraft:linear",
+                  "base": 3,
+                  "per_level_above_first": 1
+                },
+                "min": 0,
+                "max": 255
+              },
+              "height": 0
+            },
+            {
+              "type": "minecraft:replace_disk",
+              "block_state": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:snow"
+                }
+              },
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "predicate": {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:powder_snow"
+                ]
+              },
+              "radius": {
+                "type": "minecraft:clamped",
+                "value": {
+                  "type": "minecraft:linear",
+                  "base": 2,
+                  "per_level_above_first": 1
+                },
+                "min": 0,
+                "max": 255
+              },
+              "height": 0
+            },
+            {
+              "type": "minecraft:replace_disk",
+              "block_state": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:snow"
+                }
+              },
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "predicate": {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:powder_snow"
+                ]
+              },
+              "trigger_game_event": "minecraft:sculk_sensor_tendrils_clicking",
+              "radius": {
+                "type": "minecraft:clamped",
+                "value": {
+                  "type": "minecraft:linear",
+                  "base": 2,
+                  "per_level_above_first": 1
+                },
+                "min": 0,
+                "max": 255
+              },
+              "height": 0
+            }
+          ]
+        },
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "flags": {
+                  "is_on_ground": true
+                }
+              }
+            },
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "vehicle": {}
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:spawn_particles",
+          "horizontal_position": {
+            "type": "in_bounding_box",
+            "scale": 1
+          },
+          "horizontal_velocity": {
+            "movement_scale": -0.2,
+            "base": 0
+          },
+          "particle": {
+            "type": "minecraft:flame"
+          },
+          "speed": 2,
+          "vertical_position": {
+            "type": "entity_position",
+            "offset": 0.1
+          },
+          "vertical_velocity": {
+            "base": 0.01,
+            "movement_scale": 0
+          }
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#minecraft:exclusive_set/boots",
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 10
+  },
+  "max_level": 2,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "feet"
+  ],
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "weight": 2
+}

@@ -1,0 +1,195 @@
+{
+  "anvil_cost": 8,
+  "description": "Updraft",
+  "effects": {
+    "minecraft:location_changed": [
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_impulse",
+              "direction": [
+                0,
+                1,
+                1
+              ],
+              "coordinate_scale": [
+                0,
+                1,
+                0
+              ],
+              "magnitude": {
+                "type": "minecraft:linear",
+                "base": 0.6,
+                "per_level_above_first": 2
+              }
+            },
+            {
+              "type": "change_item_damage",
+              "amount": {
+                "type": "linear",
+                "base": 10,
+                "per_level_above_first": 1
+              }
+            }
+          ]
+        },
+        "requirements": {
+          "condition": "all_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "enchantments_overhaul.x_rot": {
+                  "max": 0
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:player",
+                  "input": {
+                    "jump": true
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "chest": {
+                    "items": "minecraft:elytra",
+                    "predicates": {
+                      "minecraft:damage": {
+                        "durability": {
+                          "min": 12
+                        }
+                      }
+                    }
+                  }
+                },
+                "flags": {
+                  "is_on_ground": false,
+                  "is_flying": true
+                },
+                "movement": {
+                  "y": {
+                    "max": -1
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_impulse",
+              "direction": [
+                0,
+                1,
+                -1
+              ],
+              "coordinate_scale": [
+                0,
+                1,
+                0
+              ],
+              "magnitude": {
+                "type": "minecraft:linear",
+                "base": 0.6,
+                "per_level_above_first": 2
+              }
+            },
+            {
+              "type": "change_item_damage",
+              "amount": {
+                "type": "linear",
+                "base": 10,
+                "per_level_above_first": 1
+              }
+            }
+          ]
+        },
+        "requirements": {
+          "condition": "all_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "enchantments_overhaul.x_rot": {
+                  "min":0.01,
+                  "max": 90
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:player",
+                  "input": {
+                    "jump": true
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "chest": {
+                    "items": "minecraft:elytra",
+                    "predicates": {
+                      "minecraft:damage": {
+                        "durability": {
+                          "min": 12
+                        }
+                      }
+                    }
+                  }
+                },
+                "flags": {
+                  "is_on_ground": false,
+                  "is_flying": true
+                },
+                "movement": {
+                  "y": {
+                    "max": -1
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 10
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "chest"
+  ],
+  "supported_items": "minecraft:elytra",
+  "weight": 1
+}
