@@ -1,6 +1,6 @@
 {
   "anvil_cost": 8,
-  "description": "Updraft",
+  "description": "Swooping",
   "effects": {
     "minecraft:location_changed": [
       {
