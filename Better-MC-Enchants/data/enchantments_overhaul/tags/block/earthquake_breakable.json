@@ -3,7 +3,7 @@
         "#base_stone_overworld",
         "#base_stone_nether",
         "#minecraft:planks",
-        "#dirt",
+        "#substrate_overworld",
         "#minecraft:sand",
         "#sandstone_blocks",
         "#end_stone_blocks"

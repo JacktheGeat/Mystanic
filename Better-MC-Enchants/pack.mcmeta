@@ -1,7 +1,6 @@
  {
        "pack": {
-            "min_format": [94, 0],
-            "max_format": [94, 0],
-           "description": "More Enchantments!"
+            "pack_format": 101,
+            "description": "More Enchantments!"
        }
    }
