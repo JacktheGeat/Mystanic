@@ -1,6 +1,6 @@
  {
        "pack": {
-           "min_format": 80,
+           "min_format": 94,
            "max_format": 101,
            "description": {
             "text": "Craftable playerheads for survival designs",
