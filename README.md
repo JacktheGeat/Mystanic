@@ -13,9 +13,9 @@ also it could have spyware and viruses or something idk. its not like i made it 
 that was a joke i made it it shouldnt break your computer or anything. probably.
  
 View the individual packs here:
- * [Bee Keeper miniboss](../../Bee_Keeper/)
- * [Enchantments Overhaul](../../Better-MC-Enchants/)
- * [Head Drops](../../Head_drops/)
- * [Head signs](../../Head_signs/)
- * [Mystanic endgame+](../../Mystanic/)
+> * [Bee Keeper miniboss](../../Bee_Keeper/)
+> * [Enchantments Overhaul](../Better-MC-Enchants/)
+> * [Head Drops](../../Head_drops/)
+> * [Head signs](../../Head_signs/)
+> * [Mystanic endgame+](../../Mystanic/)
 
