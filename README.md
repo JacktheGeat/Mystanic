@@ -1,4 +1,4 @@
-# [Mystanic Megapack](/)
+# [Mystanic Megapack](../../)
 Made by **Jack the GEAT**
 Special thanks to [Misode](https://github.com/misode) and the [Gamemode4](https://github.com/Gamemode4Dev/GM4_Datapacks/) datapack for the tools and inspiration.
 
@@ -13,9 +13,9 @@ also it could have spyware and viruses or something idk. its not like i made it 
 that was a joke i made it it shouldnt break your computer or anything. probably.
  
 View the individual packs here:
- * [Bee Keeper miniboss](Bee_keeper)
- * [Enchantments Overhaul](Enchantments_overhaul)
- * [Head Drops](Head_drops)
- * [Head signs](Head_signs)
- * [Mystanic endgame+](Mystanic)
+> * [Bee Keeper miniboss](https://github.com/JacktheGeat/Mystanic/tree/main/Bee_Keeper)
+> * [Enchantments Overhaul](https://github.com/JacktheGeat/Mystanic/tree/main/Better-MC-Enchants/)
+> * [Head Drops](https://github.com/JacktheGeat/Mystanic/tree/main/Head_drops/)
+> * [Head signs](https://github.com/JacktheGeat/Mystanic/tree/main/Head_signs/)
+> * [Mystanic endgame+](https://github.com/JacktheGeat/Mystanic/tree/main/Mystanic/)
 
