@@ -9,5 +9,5 @@ execute if score #temp bee_keeper.temp matches 1 run function bee_keeper:bee_kee
 execute if score #temp bee_keeper.temp matches 2 run function bee_keeper:bee_keeper/honey_spill/main
 
 # Heals stingers and sets all bees angry at the nearest player for 16 seconds
-execute as @n[type=bee,distance=..20,limit=20] run data modify entity @s AngryAt set from entity @p UUID
-execute as @n[type=bee,distance=..20,limit=20] run data merge entity @s {HasStung:0b,AngerTime:320}
+execute as @n[type=bee,distance=..20,limit=20] run data modify entity @s angry_at set from entity @p UUID
+execute as @n[type=bee,distance=..20,limit=20] run data merge entity @s {HasStung:0b,anger_end_time:320}
