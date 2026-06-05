@@ -14,7 +14,7 @@
       "trigger": "player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "ender_dragon"
+          "entity_type": "ender_dragon"
         }
       }
     }
