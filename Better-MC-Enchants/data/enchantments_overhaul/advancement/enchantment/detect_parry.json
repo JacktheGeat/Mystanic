@@ -37,7 +37,7 @@
     ]
   ],
   "rewards": {
-    "function": "enchantments_overhaul:parrying/check_enchantment"
+    "function": "enchantments_overhaul:modifier/check_enchantment"
   },
   "sends_telemetry_event": false
 }

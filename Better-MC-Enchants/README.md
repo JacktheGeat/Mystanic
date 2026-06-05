@@ -14,7 +14,7 @@ Some select enchantments also get unique particle effects as well. Frost walker 
  * Parrying: Sword enchantment that allows you to block with it.
  * Explosive Arrows: Crossbow enchantment that causes arrows to explode when hitting an enemy. These explosions will damage the player and terrain as well, so be careful.
  * Implosive Arrows: Crossbow enchant that when hitting an entity, causes a small implosion, pulling in nearby mobs. Implosion does not deal any damage to nearby mobs or terrain.
-    * Currently not acquirable outside commands.
+    * Available as a treasure enchantment.
  * Resiliance: Armor enchant that grants an extra half heart for each level. A full set with Resiliance 5 doubles your life total.
     * It is mutually exclusive with protection-type enchantments.
  * Moonwalking: A boots enchantment acquirable in end cities. Decreases gravity and fall damage rate. Moonwalking does not increase safe fall distance, only decreases damage by a percent.
@@ -23,9 +23,14 @@ Some select enchantments also get unique particle effects as well. Frost walker 
     * Mutually exclusive with Updraft
  * Updraft: Elytra enchantment. In exchange for a decent bit of durability, will shoot you up into the air. Pressing space while flying will shoot you straight up into the sky.
     * Mutually exclusive with Mending and Swooping
-    * Currently not acquirable outside commands.
+    * Available as a treasure enchantment.
  * Flame Walker: Boots enchantment that is the opposite of Frost Walker. You cannot take freezing damage, and you melt powdered snow and snow layer blocks nearby. Also turns cobblestone you walk over into stone in a very small radius.
-    * Will be acquirable as an enchanatment in Bastions, currently not acquirable outside commands.
+    * Will be acquirable as an enchanatment in Bastions, Available as a treasure enchantment.
+ * Reaching: Increases attack range of the item.
+    * Enchantable for sharpness items.
+ * Curse of shorthand: Decreases attack range of the item
+    * Enchantable for sharpness items.
+    
  * Halfling: Chestpiece enchantment that decreases player size and health. Speed and jump height are unaffected by size changes, only the player's hitbox, model, and viewpoint.
     * Currently not acquirable outside commands.
  * Longstrider: Leggings enchchantment that increases your step-height, so you can walk up a full block without needing to jump. Does not increase jump height as well, you just need to jump less.
