@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:entity",
+  "random_sequence": "minecraft:entities/piglin_brute",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "piglin_head"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "source_entity": {
+              "type": "minecraft:creeper",
+              "nbt": "{powered:1b}"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

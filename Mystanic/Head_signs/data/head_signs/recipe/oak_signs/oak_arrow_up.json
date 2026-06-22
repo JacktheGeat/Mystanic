@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:oak_sign",
+  "result": {
+    "id": "minecraft:player_head",
+    "components": {
+      "minecraft:profile": {
+        "name": "MHF_ArrowUp",
+        "properties": []
+      },
+      "minecraft:custom_data": {
+        "set_skin": true
+      },
+      "minecraft:custom_name": {
+        "text": "Oak Arrow Up",
+        "italic": false
+      }
+    },
+    "count": 1
+  }
+}

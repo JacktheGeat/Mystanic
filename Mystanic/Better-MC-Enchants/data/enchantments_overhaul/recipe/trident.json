@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "XOX",
+    " # ",
+    " Y "
+  ],
+  "key": {
+    "X": "minecraft:prismarine_shard",
+    "O": "diamond",
+    "#": "minecraft:heart_of_the_sea",
+    "Y": "minecraft:prismarine_crystals"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:trident"
+  }
+}
