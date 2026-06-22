@@ -1,0 +1,2 @@
+execute if score #temp dummy matches 90..93 run function mystanic:endgame_plus/skeleton_mutations/regenerator
+execute if score #temp dummy matches 93..96 run function mystanic:endgame_plus/skeleton_mutations/sprinter

@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "Consume_Milk": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:milk_bucket"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "Consume_Milk"
+    ]
+  ],
+  "rewards": {
+    "function": "bee_keeper:advancement/consume_milk"
+  }
+}

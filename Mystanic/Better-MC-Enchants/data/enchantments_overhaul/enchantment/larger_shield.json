@@ -1,0 +1,31 @@
+{
+  "primary_items": "shield",
+  "anvil_cost": 6,
+  "description": {
+    "text": "Large Shield"
+  },
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "enchantments_overhaul:larger_shield/apply"
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 8
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 8
+  },
+  "slots": [
+    "hand"
+  ],
+  "supported_items": "minecraft:shield",
+  "weight": 4
+}

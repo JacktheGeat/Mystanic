@@ -1,0 +1,116 @@
+{
+  "primary_items": "#minecraft:enchantable/sharp_weapon",
+  "anvil_cost": 4,
+  "description": {
+    "text": "Curse of Shorthand",
+    "color": "red"
+  },
+  "effects": {
+    "minecraft:tick": [
+      {
+        "requirements": {
+            "condition": "any_of",
+            "terms": [
+                {
+                    "condition": "all_of",
+                    "terms": [
+                        {
+                            "condition": "inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "equipment": {
+                                        "mainhand": {
+                                            "components": {
+                                                "attack_range": {
+                                                    "min_reach": 0,
+                                                    "max_reach": 2
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "mainhand": {
+                                        "components": {
+                                            "enchantments": {
+                                                "enchantments_overhaul:reaching": 1
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        
+                    ]
+                },
+                {
+                    "condition": "all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "offhand": {
+                                        "components": {
+                                            "enchantments": {
+                                                "enchantments_overhaul:reaching": 1
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "offhand": {
+                                        "components": {
+                                                "attack_range": {
+                                                    "min_reach": 0,
+                                                    "max_reach": 2
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "enchantments_overhaul:modifier/add_parry"
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 75,
+    "per_level_above_first": 25
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 15
+  },
+  "slots": [
+    "hand"
+  ],
+  "supported_items": "#minecraft:swords",
+  "weight": 1
+}

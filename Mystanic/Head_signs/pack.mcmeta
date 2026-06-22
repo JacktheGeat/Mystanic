@@ -1,0 +1,10 @@
+ {
+       "pack": {
+           "min_format": 94,
+           "max_format": 107,
+           "description": {
+            "text": "Craftable playerheads for survival designs",
+            "color": "white"
+           }
+       }
+   }

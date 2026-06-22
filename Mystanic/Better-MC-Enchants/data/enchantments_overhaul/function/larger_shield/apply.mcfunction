@@ -1,0 +1,1 @@
+execute if items entity @s weapon.mainhand shield[enchantments={"enchantments_overhaul:larger_shield":1}] run item modify entity @s weapon.mainhand enchantments_overhaul:apply_larger_shield

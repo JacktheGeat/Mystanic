@@ -1,0 +1,33 @@
+{
+  "description": "Resiliance",
+  "exclusive_set": "#minecraft:exclusive_set/armor",
+  "supported_items": "#minecraft:enchantable/armor",
+  "weight": 1,
+  "max_level": 5,
+  "min_cost": {
+    "base": 16,
+    "per_level_above_first": 5
+  },
+  "max_cost": {
+    "base": 20,
+    "per_level_above_first": 6
+  },
+  "anvil_cost": 3,
+  "slots": [
+    "armor"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:max_health",
+        "id": "enchantments_overhaul:halfling_health",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 2,
+          "per_level_above_first": 1
+        },
+        "operation": "add_value"
+      }
+    ]
+  }
+}

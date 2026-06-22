@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "Parrying without enchantment": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "shield",
+          "predicates": {
+            "enchantments": [
+              {"enchantments": "unbreaking"}
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "Parrying without enchantment"
+    ]
+  ],
+  "rewards": {
+    "function": "enchantments_overhaul:shield_test"
+  },
+  "sends_telemetry_event": false
+}
