@@ -1,1 +1,0 @@
-execute unless entity @n[distance=..2, tag=enchantments_overhaul.frost_aspect.marker,type=marker] run function enchantments_overhaul:frost_aspect/pass

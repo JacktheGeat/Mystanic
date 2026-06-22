@@ -1,7 +1,0 @@
-{
-  "function": "minecraft:set_components",
-  "components": {
-    "!minecraft:blocks_attacks": {
-    }
-  }
-}
