@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_head"
+    },
+    "title": "Endbringer",
+    "description": "Calamity follows those who slay dragons",
+    "frame": "goal",
+    "show_toast": true,
+    "hidden": true
+  },
+  "criteria": {
+    "Return to Overworld": {
+      "trigger": "player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "ender_dragon"
+        }
+      }
+    }
+  }
+}
