@@ -123,7 +123,7 @@
         },
         "effect": {
           "type": "minecraft:run_function",
-          "function": "enchantments_overhaul:parrying/add_parry"
+          "function": "enchantments_overhaul:modifier/add_parry"
         }
       }
     ]

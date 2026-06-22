@@ -21,7 +21,7 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "type": "#minecraft:sensitive_to_impaling"
+                "entity_type": "#sensitive_to_impaling"
               }
             },
             {

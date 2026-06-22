@@ -15,8 +15,7 @@
       "trigger": "minecraft:bee_nest_destroyed",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:mined",

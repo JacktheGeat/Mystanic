@@ -6,8 +6,8 @@
         "damage": {
           "type": {
             "direct_entity": {
-              "type": "minecraft:trident",
-              "nbt": "{item:{components:{\"minecraft:enchantments\":{\"enchantments_overhaul:arctic_chill\":1}}}}"
+              "entity_type": "minecraft:trident",
+              "nbt": "{item:{id:trident,components:{\"minecraft:enchantments\":{\"enchantments_overhaul:arctic_chill\":1}}}}"
             },
             "tags": [
               {
@@ -55,8 +55,8 @@
         "damage": {
           "type": {
             "direct_entity": {
-              "type": "minecraft:trident",
-              "nbt": "{item:{components:{\"minecraft:enchantments\":{\"enchantments_overhaul:arctic_chill\":2}}}}"
+              "entity_type": "minecraft:trident",
+              "nbt": "{item:{id:trident,components:{\"minecraft:enchantments\":{\"enchantments_overhaul:arctic_chill\":2}}}}"
             },
             "tags": [
               {
@@ -104,8 +104,8 @@
         "damage": {
           "type": {
             "direct_entity": {
-              "type": "minecraft:trident",
-              "nbt": "{item:{components:{\"minecraft:enchantments\":{\"enchantments_overhaul:arctic_chill\":3}}}}"
+              "entity_type": "minecraft:trident",
+              "nbt": "{item:{id:trident,components:{\"minecraft:enchantments\":{\"enchantments_overhaul:arctic_chill\":3}}}}"
             },
             "tags": [
               {
@@ -154,16 +154,16 @@
         "damage": {
           "source_entity": {
             "equipment": {
-            "mainhand": {
-              "predicates": {
-                "minecraft:enchantments": [
-                  {
-                    "enchantments": "enchantments_overhaul:arctic_chill"
-                  }
-                ]
+              "mainhand": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "enchantments_overhaul:arctic_chill"
+                    }
+                  ]
+                }
               }
             }
-          }
           }
         }
       }
