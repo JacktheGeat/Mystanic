@@ -1,21 +1,6 @@
-# [Mystanic Megapack](../../)
-Made by **Jack the GEAT**
-Special thanks to [Misode](https://github.com/misode) and the [Gamemode4](https://github.com/Gamemode4Dev/GM4_Datapacks/) datapack for the tools and inspiration.
+# [Mystanic Endgame+](/)
 
-This is a modular pack that combines multiple datapacks I have made into one. Each of the datapack folders works independently of each other, excluding the minecraft datapack for obvious reasons.
-     
-Make sure you download the resource pack here:
-  > add resource pack here when you can
+This pack was designed to increase difficulty after defeating the ender dragon.
+Upon returning to the overworld from the end, you unlock the Endbringer enchantment, which causes nearby mob spawns to have various powerful mutations.
 
-just a quick disclaimer: this project is a WORK IN PROGRESS
-
-also it could have spyware and viruses or something idk. its not like i made it or anything.<br />
-that was a joke i made it it shouldnt break your computer or anything. probably.
- 
-View the individual packs here:
-> * [Bee Keeper miniboss](https://github.com/JacktheGeat/Mystanic/tree/main/Bee_Keeper)
-> * [Enchantments Overhaul](https://github.com/JacktheGeat/Mystanic/tree/main/Better-MC-Enchants/)
-> * [Head Drops](https://github.com/JacktheGeat/Mystanic/tree/main/Head_drops/)
-> * [Head signs](https://github.com/JacktheGeat/Mystanic/tree/main/Head_signs/)
-> * [Mystanic endgame+](https://github.com/JacktheGeat/Mystanic/tree/main/Mystanic/)
-
+I hope to also later add new endgame bosses, biomes, and weapons and enchantments.
