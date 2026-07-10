@@ -1,0 +1,9 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:attack_range": {
+      "min_reach": 1,
+      "max_reach": 2
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "anvil_cost": 8,
+  "description": "Frictionless",
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.8,
+          "per_level_above_first": -0.1
+        },
+        "attribute": "minecraft:air_drag_modifier",
+        "id": "mystanic:enchantment.frictionless",
+        "operation": "add_value"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 75,
+    "per_level_above_first": 25
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 25
+  },
+  "slots": [
+    "legs"
+  ],
+  "supported_items": "#minecraft:enchantable/leg_armor",
+  "weight": 1
+}

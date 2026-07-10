@@ -42,6 +42,7 @@ Some select enchantments also get unique particle effects as well. Frost walker 
 ### Balancing:
  * Impaling: Added drowned to the list of entities targeted by the damage increase, but also will deal increased damage to any entity so long as it is in water or in the open rain.
  * Sharpness: Now can be enchanted on tridents.
+ * Frost Walker: Now applies a negative friction modifier allowing a slight speed boost when jump sprinting as if on ice.
  * Mending: 
     * Automatically gives the item "Curse of breaking"
     * Mutually exclusive with Unbreaking

@@ -1,0 +1,2 @@
+execute if items entity @s weapon.mainhand #swords[minecraft:enchantments={"enchantments_overhaul:shorthand":1}, attack_range={min_reach: 0,max_reach: 2}] run item modify entity @s weapon.mainhand enchantments_overhaul:apply_shorthand
+execute if items entity @s weapon.offhand #swords[minecraft:enchantments={"enchantments_overhaul:shorthand":1}, attack_range={min_reach: 0,max_reach: 2}] run item modify entity @s weapon.offhand enchantments_overhaul:apply_shorthand

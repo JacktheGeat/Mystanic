@@ -62,7 +62,7 @@
                                     "offhand": {
                                         "components": {
                                             "enchantments": {
-                                                "enchantments_overhaul:reaching": 1
+                                                "enchantments_overhaul:shorthand": 1
                                             }
                                         }
                                     }
@@ -94,7 +94,7 @@
         },
         "effect": {
           "type": "minecraft:run_function",
-          "function": "enchantments_overhaul:modifier/add_parry"
+          "function": "enchantments_overhaul:modifier/add_shorthand"
         }
       }
     ]

@@ -1,0 +1,96 @@
+{
+ "description": {
+    "text": "Curse of Slime",
+    "color": "red"
+  },
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "primary_items": "#minecraft:enchantable/foot_armor",
+  "weight": 1,
+  "max_level": 3,
+  "min_cost": {
+    "base": 16,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 20,
+    "per_level_above_first": 15
+  },
+  "anvil_cost": 5,
+  "slots": [
+    "feet"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:bounciness",
+        "id": "mystanic.enchantment.slimy",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.2,
+          "per_level_above_first": 0.2
+        },
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:fall_damage_multiplier",
+        "id": "mystanic.enchantment.slimy",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.1,
+          "per_level_above_first": -0.1
+        },
+        "operation": "add_multiplied_base"
+      },
+      {
+        "attribute": "movement_speed",
+        "id": "mystanic.enchantment.slimy",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.05,
+          "per_level_above_first": -0.05
+        },
+        "operation": "add_multiplied_base"
+      }
+    ],
+    "tick": [
+      {
+        "effect": {
+          "type": "minecraft:play_sound",
+          "pitch": {
+            "type": "minecraft:uniform",
+            "max_exclusive": 1,
+            "min_inclusive": 0.6
+          },
+          "sound": "minecraft:block.slime_block.step",
+          "volume": 0.6
+        },
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "chance": 0.35,
+              "condition": "minecraft:random_chance"
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:flags": {
+                  "is_flying": false,
+                  "is_on_ground": true,
+                  "is_sneaking": false
+                },
+                "minecraft:movement": {
+                  "horizontal_speed": {
+                    "min": 0.000009999999747378752
+                  }
+                },
+                "minecraft:periodic_tick": 5
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
